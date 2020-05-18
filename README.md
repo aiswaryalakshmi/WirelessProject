@@ -49,3 +49,16 @@ lighthouse --throttling.requestLatencyMs=0 --throttling.downloadThroughputKbps=0
 # Disable the traffic throttling once you see "Gathering trace"
 comcast --stop
 ```
+
+## Our Network Conditions
+The following network conditions have been set up for carrying out our experiments. Repeat the experiments for each of the network conditions below:
+```
+# Enable system traffic throttling for 2G
+comcast --latency=700 --target-bw=300
+
+# Enable system traffic throttling for 3G
+comcast --latency=250 --target-bw=1638
+
+# Enable system traffic throttling for 4G
+comcast --latency=50 --target-bw=25000
+```
