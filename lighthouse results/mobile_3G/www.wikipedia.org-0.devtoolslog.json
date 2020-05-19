@@ -1,0 +1,1540 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "332AB324B4A871A454FA2D38714D49F9",
+      "name": "commit",
+      "timestamp": 6480291.841213
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "332AB324B4A871A454FA2D38714D49F9",
+      "name": "DOMContentLoaded",
+      "timestamp": 6480291.841283
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "332AB324B4A871A454FA2D38714D49F9",
+      "name": "load",
+      "timestamp": 6480291.84151
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "332AB324B4A871A454FA2D38714D49F9",
+      "name": "networkAlmostIdle",
+      "timestamp": 6480291.841858
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "332AB324B4A871A454FA2D38714D49F9",
+      "name": "networkIdle",
+      "timestamp": 6480291.841858
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "B4C0A7122786532875E310BE6E4D8082",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "documentURL": "https://www.wikipedia.org/",
+      "request": {
+        "url": "https://www.wikipedia.org/",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "document"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6480291.881327,
+      "wallTime": 1589822941.332576,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Document",
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "B4C0A7122786532875E310BE6E4D8082",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "www.wikipedia.org",
+        ":scheme": "https",
+        ":path": "/",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "document",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "B4C0A7122786532875E310BE6E4D8082",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "date": "Mon, 18 May 2020 10:38:37 GMT",
+        "content-type": "text/html",
+        "server": "mw1325.eqiad.wmnet",
+        "last-modified": "Mon, 18 May 2020 10:35:03 GMT",
+        "cache-control": "s-maxage=86400, must-revalidate, max-age=3600",
+        "etag": "W/\"10d5a-5a5e9b738f6d5\"",
+        "content-encoding": "gzip",
+        "vary": "Accept-Encoding",
+        "age": "24624",
+        "x-cache": "cp1079 hit, cp1085 hit/167075",
+        "x-cache-status": "hit-front",
+        "server-timing": "cache;desc=\"hit-front\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "set-cookie": "WMF-Last-Access=18-May-2020;Path=/;HttpOnly;secure;Expires=Fri, 19 Jun 2020 12:00:00 GMT\nWMF-Last-Access-Global=18-May-2020;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Fri, 19 Jun 2020 12:00:00 GMT\nGeoIP=US:NY:Stony_Brook:40.91:-73.12:v4; Path=/; secure; Domain=.wikipedia.org",
+        "x-client-ip": "130.245.145.210",
+        "accept-ranges": "bytes",
+        "content-length": "17960"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "B4C0A7122786532875E310BE6E4D8082",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "timestamp": 6480292.165834,
+      "type": "Document",
+      "response": {
+        "url": "https://www.wikipedia.org/",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "status": "200",
+          "date": "Mon, 18 May 2020 10:38:37 GMT",
+          "content-type": "text/html",
+          "server": "mw1325.eqiad.wmnet",
+          "last-modified": "Mon, 18 May 2020 10:35:03 GMT",
+          "cache-control": "s-maxage=86400, must-revalidate, max-age=3600",
+          "etag": "W/\"10d5a-5a5e9b738f6d5\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "age": "24624",
+          "x-cache": "cp1079 hit, cp1085 hit/167075",
+          "x-cache-status": "hit-front",
+          "server-timing": "cache;desc=\"hit-front\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "set-cookie": "WMF-Last-Access=18-May-2020;Path=/;HttpOnly;secure;Expires=Fri, 19 Jun 2020 12:00:00 GMT\nWMF-Last-Access-Global=18-May-2020;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Fri, 19 Jun 2020 12:00:00 GMT\nGeoIP=US:NY:Stony_Brook:40.91:-73.12:v4; Path=/; secure; Domain=.wikipedia.org",
+          "x-client-ip": "130.245.145.210",
+          "accept-ranges": "bytes",
+          "content-length": "17960"
+        },
+        "mimeType": "text/html",
+        "requestHeaders": {
+          ":method": "GET",
+          ":authority": "www.wikipedia.org",
+          ":scheme": "https",
+          ":path": "/",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "sec-fetch-dest": "document",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+          "sec-fetch-site": "none",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-user": "?1",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US"
+        },
+        "connectionReused": false,
+        "connectionId": 12,
+        "remoteIPAddress": "208.80.154.224",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 530,
+        "timing": {
+          "requestTime": 6480291.882074,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 142.232,
+          "dnsEnd": 148.595,
+          "connectStart": 148.595,
+          "connectEnd": 216.53,
+          "sslStart": 178.399,
+          "sslEnd": 216.498,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 216.748,
+          "sendEnd": 217.02,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 282.317
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.wikipedia.org",
+          "sanList": [
+            "*.m.mediawiki.org",
+            "*.m.wikibooks.org",
+            "*.m.wikidata.org",
+            "*.m.wikimedia.org",
+            "*.m.wikinews.org",
+            "*.m.wikipedia.org",
+            "*.m.wikiquote.org",
+            "*.m.wikisource.org",
+            "*.m.wikiversity.org",
+            "*.m.wikivoyage.org",
+            "*.m.wiktionary.org",
+            "*.mediawiki.org",
+            "*.planet.wikimedia.org",
+            "*.wikibooks.org",
+            "*.wikidata.org",
+            "*.wikimedia.org",
+            "*.wikimediafoundation.org",
+            "*.wikinews.org",
+            "*.wikipedia.org",
+            "*.wikiquote.org",
+            "*.wikisource.org",
+            "*.wikiversity.org",
+            "*.wikivoyage.org",
+            "*.wiktionary.org",
+            "*.wmfusercontent.org",
+            "mediawiki.org",
+            "w.wiki",
+            "wikibooks.org",
+            "wikidata.org",
+            "wikimedia.org",
+            "wikimediafoundation.org",
+            "wikinews.org",
+            "wikipedia.org",
+            "wikiquote.org",
+            "wikisource.org",
+            "wikiversity.org",
+            "wikivoyage.org",
+            "wiktionary.org",
+            "wmfusercontent.org"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1584860501,
+          "validTo": 1592636501,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982"
+    }
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "name": "init",
+      "timestamp": 6480292.167718
+    }
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "F69A0C3CF072F2D4304F6659BDEB3982",
+        "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+        "url": "https://www.wikipedia.org/",
+        "securityOrigin": "https://www.wikipedia.org",
+        "mimeType": "text/html"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "B4C0A7122786532875E310BE6E4D8082",
+      "timestamp": 6480292.173282,
+      "dataLength": 65536,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "B4C0A7122786532875E310BE6E4D8082",
+      "timestamp": 6480292.176116,
+      "dataLength": 3418,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "B4C0A7122786532875E310BE6E4D8082",
+      "timestamp": 6480292.16597,
+      "encodedDataLength": 18517,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "7319.2",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "www.wikipedia.org",
+        ":scheme": "https",
+        ":path": "/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.wikipedia.org/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US",
+        "cookie": "WMF-Last-Access=18-May-2020; WMF-Last-Access-Global=18-May-2020; GeoIP=US:NY:Stony_Brook:40.91:-73.12:v4"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "7319.2",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "documentURL": "https://www.wikipedia.org/",
+      "request": {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.wikipedia.org/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6480292.17723,
+      "wallTime": 1589822941.628466,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.wikipedia.org/",
+        "lineNumber": 26
+      },
+      "type": "Image",
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "7319.5",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "documentURL": "https://www.wikipedia.org/",
+      "request": {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/index-0875d644b5.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.wikipedia.org/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "script"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Medium",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6480292.18537,
+      "wallTime": 1589822941.636606,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.wikipedia.org/",
+        "lineNumber": 802
+      },
+      "type": "Script",
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "7319.6",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "documentURL": "https://www.wikipedia.org/",
+      "request": {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/gt-ie9-eb680c4142.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.wikipedia.org/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "script"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Medium",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6480292.18564,
+      "wallTime": 1589822941.636876,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.wikipedia.org/",
+        "lineNumber": 805
+      },
+      "type": "Script",
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "7319.5",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "www.wikipedia.org",
+        ":scheme": "https",
+        ":path": "/portal/wikipedia.org/assets/js/index-0875d644b5.js",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "script",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.wikipedia.org/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US",
+        "cookie": "WMF-Last-Access=18-May-2020; WMF-Last-Access-Global=18-May-2020; GeoIP=US:NY:Stony_Brook:40.91:-73.12:v4"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "7319.6",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "www.wikipedia.org",
+        ":scheme": "https",
+        ":path": "/portal/wikipedia.org/assets/js/gt-ie9-eb680c4142.js",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "script",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.wikipedia.org/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US",
+        "cookie": "WMF-Last-Access=18-May-2020; WMF-Last-Access-Global=18-May-2020; GeoIP=US:NY:Stony_Brook:40.91:-73.12:v4"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "7319.8",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "www.wikipedia.org",
+        ":scheme": "https",
+        ":path": "/portal/wikipedia.org/assets/img/sprite-81a290a5.svg",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.wikipedia.org/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US",
+        "cookie": "WMF-Last-Access=18-May-2020; WMF-Last-Access-Global=18-May-2020; GeoIP=US:NY:Stony_Brook:40.91:-73.12:v4"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "7319.2",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "date": "Mon, 18 May 2020 10:38:38 GMT",
+        "content-type": "image/png",
+        "content-length": "37479",
+        "server": "mw1371.eqiad.wmnet",
+        "last-modified": "Mon, 27 Apr 2020 11:12:06 GMT",
+        "etag": "\"9267-5a443c90afd1b\"",
+        "cache-control": "s-maxage=86400, max-age=86400",
+        "expires": "Tue, 18 May 2021 10:38:38 GMT",
+        "access-control-allow-origin": "*",
+        "age": "24622",
+        "x-cache": "cp1085 hit, cp1085 hit/8903",
+        "x-cache-status": "hit-front",
+        "server-timing": "cache;desc=\"hit-front\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "x-client-ip": "130.245.145.210",
+        "accept-ranges": "bytes"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "7319.9",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "www.wikipedia.org",
+        ":scheme": "https",
+        ":path": "/portal/wikipedia.org/assets/img/Wikinews-logo_sister@2x.png",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.wikipedia.org/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US",
+        "cookie": "WMF-Last-Access=18-May-2020; WMF-Last-Access-Global=18-May-2020; GeoIP=US:NY:Stony_Brook:40.91:-73.12:v4"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "7319.5",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "date": "Mon, 18 May 2020 10:38:37 GMT",
+        "content-type": "application/javascript",
+        "server": "mw1329.eqiad.wmnet",
+        "last-modified": "Mon, 06 Apr 2020 10:47:18 GMT",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=86400, max-age=86400",
+        "etag": "W/\"610d-5a29cfdb05480\"",
+        "content-encoding": "gzip",
+        "vary": "Accept-Encoding",
+        "age": "24623",
+        "x-cache": "cp1077 hit, cp1085 hit/25615",
+        "x-cache-status": "hit-front",
+        "server-timing": "cache;desc=\"hit-front\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "x-client-ip": "130.245.145.210",
+        "accept-ranges": "bytes",
+        "content-length": "8912"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "7319.6",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "date": "Mon, 18 May 2020 10:38:37 GMT",
+        "content-type": "application/javascript",
+        "content-length": "606",
+        "server": "mw1329.eqiad.wmnet",
+        "last-modified": "Mon, 06 Apr 2020 10:47:18 GMT",
+        "etag": "\"25e-5a29cfdb05480\"",
+        "access-control-allow-origin": "*",
+        "cache-control": "s-maxage=86400, max-age=86400",
+        "age": "24623",
+        "x-cache": "cp1077 hit, cp1085 hit/25666",
+        "x-cache-status": "hit-front",
+        "server-timing": "cache;desc=\"hit-front\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "x-client-ip": "130.245.145.210",
+        "accept-ranges": "bytes"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "7319.8",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "date": "Mon, 18 May 2020 02:40:11 GMT",
+        "content-type": "image/svg+xml",
+        "server": "mw1403.eqiad.wmnet",
+        "last-modified": "Wed, 28 Aug 2019 11:27:35 GMT",
+        "cache-control": "s-maxage=86400, max-age=86400",
+        "expires": "Tue, 18 May 2021 02:40:11 GMT",
+        "access-control-allow-origin": "*",
+        "etag": "W/\"a6c9-5912bacf73e55\"",
+        "content-encoding": "gzip",
+        "vary": "Accept-Encoding",
+        "age": "53329",
+        "x-cache": "cp1079 hit, cp1085 hit/26028",
+        "x-cache-status": "hit-front",
+        "server-timing": "cache;desc=\"hit-front\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "x-client-ip": "130.245.145.210",
+        "accept-ranges": "bytes",
+        "content-length": "17110"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "7319.9",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "date": "Mon, 18 May 2020 10:38:37 GMT",
+        "content-type": "image/png",
+        "content-length": "3412",
+        "server": "mw1320.eqiad.wmnet",
+        "last-modified": "Mon, 19 Mar 2018 11:07:26 GMT",
+        "etag": "\"d54-567c1f68d7393\"",
+        "cache-control": "s-maxage=86400, max-age=86400",
+        "expires": "Tue, 18 May 2021 10:38:37 GMT",
+        "access-control-allow-origin": "*",
+        "age": "24623",
+        "x-cache": "cp1089 hit, cp1085 hit/11145",
+        "x-cache-status": "hit-front",
+        "server-timing": "cache;desc=\"hit-front\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "x-client-ip": "130.245.145.210",
+        "accept-ranges": "bytes"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "7319.8",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "documentURL": "https://www.wikipedia.org/",
+      "request": {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-81a290a5.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.wikipedia.org/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6480292.196305,
+      "wallTime": 1589822941.647542,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.wikipedia.org/",
+        "lineNumber": 802
+      },
+      "type": "Image",
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "7319.9",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "documentURL": "https://www.wikipedia.org/",
+      "request": {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister@2x.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.wikipedia.org/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6480292.21727,
+      "wallTime": 1589822941.668506,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.wikipedia.org/",
+        "lineNumber": 802
+      },
+      "type": "Image",
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "7319.2",
+      "newPriority": "High",
+      "timestamp": 6480292.654196
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "7319.8",
+      "newPriority": "High",
+      "timestamp": 6480292.654249
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "7319.2",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "timestamp": 6480292.662067,
+      "type": "Image",
+      "response": {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 10:38:38 GMT",
+          "age": "24622",
+          "x-cache-status": "hit-front",
+          "x-cache": "cp1085 hit, cp1085 hit/8903",
+          "status": "200",
+          "server-timing": "cache;desc=\"hit-front\"",
+          "content-length": "37479",
+          "x-client-ip": "130.245.145.210",
+          "last-modified": "Mon, 27 Apr 2020 11:12:06 GMT",
+          "server": "mw1371.eqiad.wmnet",
+          "etag": "\"9267-5a443c90afd1b\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=86400, max-age=86400",
+          "accept-ranges": "bytes",
+          "expires": "Tue, 18 May 2021 10:38:38 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "208.80.154.224",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 190,
+        "timing": {
+          "requestTime": 6480292.177659,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.3,
+          "sendEnd": 0.451,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 32.613
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.wikipedia.org",
+          "sanList": [
+            "*.m.mediawiki.org",
+            "*.m.wikibooks.org",
+            "*.m.wikidata.org",
+            "*.m.wikimedia.org",
+            "*.m.wikinews.org",
+            "*.m.wikipedia.org",
+            "*.m.wikiquote.org",
+            "*.m.wikisource.org",
+            "*.m.wikiversity.org",
+            "*.m.wikivoyage.org",
+            "*.m.wiktionary.org",
+            "*.mediawiki.org",
+            "*.planet.wikimedia.org",
+            "*.wikibooks.org",
+            "*.wikidata.org",
+            "*.wikimedia.org",
+            "*.wikimediafoundation.org",
+            "*.wikinews.org",
+            "*.wikipedia.org",
+            "*.wikiquote.org",
+            "*.wikisource.org",
+            "*.wikiversity.org",
+            "*.wikivoyage.org",
+            "*.wiktionary.org",
+            "*.wmfusercontent.org",
+            "mediawiki.org",
+            "w.wiki",
+            "wikibooks.org",
+            "wikidata.org",
+            "wikimedia.org",
+            "wikimediafoundation.org",
+            "wikinews.org",
+            "wikipedia.org",
+            "wikiquote.org",
+            "wikisource.org",
+            "wikiversity.org",
+            "wikivoyage.org",
+            "wiktionary.org",
+            "wmfusercontent.org"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1584860501,
+          "validTo": 1592636501,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7319.2",
+      "timestamp": 6480292.662197,
+      "dataLength": 37479,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7319.2",
+      "timestamp": 6480292.662699,
+      "dataLength": 0,
+      "encodedDataLength": 37515
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "7319.2",
+      "timestamp": 6480292.223283,
+      "encodedDataLength": 37705,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "7319.5",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "timestamp": 6480292.663145,
+      "type": "Script",
+      "response": {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/index-0875d644b5.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 10:38:37 GMT",
+          "content-encoding": "gzip",
+          "age": "24623",
+          "x-cache-status": "hit-front",
+          "x-cache": "cp1077 hit, cp1085 hit/25615",
+          "status": "200",
+          "server-timing": "cache;desc=\"hit-front\"",
+          "content-length": "8912",
+          "x-client-ip": "130.245.145.210",
+          "last-modified": "Mon, 06 Apr 2020 10:47:18 GMT",
+          "server": "mw1329.eqiad.wmnet",
+          "etag": "W/\"610d-5a29cfdb05480\"",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "content-type": "application/javascript",
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=86400, max-age=86400",
+          "accept-ranges": "bytes"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "208.80.154.224",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 130,
+        "timing": {
+          "requestTime": 6480292.185758,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.386,
+          "sendEnd": 0.678,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 55.333
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.wikipedia.org",
+          "sanList": [
+            "*.m.mediawiki.org",
+            "*.m.wikibooks.org",
+            "*.m.wikidata.org",
+            "*.m.wikimedia.org",
+            "*.m.wikinews.org",
+            "*.m.wikipedia.org",
+            "*.m.wikiquote.org",
+            "*.m.wikisource.org",
+            "*.m.wikiversity.org",
+            "*.m.wikivoyage.org",
+            "*.m.wiktionary.org",
+            "*.mediawiki.org",
+            "*.planet.wikimedia.org",
+            "*.wikibooks.org",
+            "*.wikidata.org",
+            "*.wikimedia.org",
+            "*.wikimediafoundation.org",
+            "*.wikinews.org",
+            "*.wikipedia.org",
+            "*.wikiquote.org",
+            "*.wikisource.org",
+            "*.wikiversity.org",
+            "*.wikivoyage.org",
+            "*.wiktionary.org",
+            "*.wmfusercontent.org",
+            "mediawiki.org",
+            "w.wiki",
+            "wikibooks.org",
+            "wikidata.org",
+            "wikimedia.org",
+            "wikimediafoundation.org",
+            "wikinews.org",
+            "wikipedia.org",
+            "wikiquote.org",
+            "wikisource.org",
+            "wikiversity.org",
+            "wikivoyage.org",
+            "wiktionary.org",
+            "wmfusercontent.org"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1584860501,
+          "validTo": 1592636501,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7319.5",
+      "timestamp": 6480292.663248,
+      "dataLength": 24845,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "7319.6",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "timestamp": 6480292.663822,
+      "type": "Script",
+      "response": {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/gt-ie9-eb680c4142.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 10:38:37 GMT",
+          "age": "24623",
+          "x-cache-status": "hit-front",
+          "x-cache": "cp1077 hit, cp1085 hit/25666",
+          "status": "200",
+          "server-timing": "cache;desc=\"hit-front\"",
+          "content-length": "606",
+          "x-client-ip": "130.245.145.210",
+          "last-modified": "Mon, 06 Apr 2020 10:47:18 GMT",
+          "server": "mw1329.eqiad.wmnet",
+          "etag": "\"25e-5a29cfdb05480\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "content-type": "application/javascript",
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=86400, max-age=86400",
+          "accept-ranges": "bytes"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "208.80.154.224",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 67,
+        "timing": {
+          "requestTime": 6480292.186015,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.357,
+          "sendEnd": 0.475,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 56.184
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.wikipedia.org",
+          "sanList": [
+            "*.m.mediawiki.org",
+            "*.m.wikibooks.org",
+            "*.m.wikidata.org",
+            "*.m.wikimedia.org",
+            "*.m.wikinews.org",
+            "*.m.wikipedia.org",
+            "*.m.wikiquote.org",
+            "*.m.wikisource.org",
+            "*.m.wikiversity.org",
+            "*.m.wikivoyage.org",
+            "*.m.wiktionary.org",
+            "*.mediawiki.org",
+            "*.planet.wikimedia.org",
+            "*.wikibooks.org",
+            "*.wikidata.org",
+            "*.wikimedia.org",
+            "*.wikimediafoundation.org",
+            "*.wikinews.org",
+            "*.wikipedia.org",
+            "*.wikiquote.org",
+            "*.wikisource.org",
+            "*.wikiversity.org",
+            "*.wikivoyage.org",
+            "*.wiktionary.org",
+            "*.wmfusercontent.org",
+            "mediawiki.org",
+            "w.wiki",
+            "wikibooks.org",
+            "wikidata.org",
+            "wikimedia.org",
+            "wikimediafoundation.org",
+            "wikinews.org",
+            "wikipedia.org",
+            "wikiquote.org",
+            "wikisource.org",
+            "wikiversity.org",
+            "wikivoyage.org",
+            "wiktionary.org",
+            "wmfusercontent.org"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1584860501,
+          "validTo": 1592636501,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7319.6",
+      "timestamp": 6480292.663906,
+      "dataLength": 606,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "7319.8",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "timestamp": 6480292.66443,
+      "type": "Image",
+      "response": {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-81a290a5.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 02:40:11 GMT",
+          "content-encoding": "gzip",
+          "age": "53329",
+          "x-cache-status": "hit-front",
+          "x-cache": "cp1079 hit, cp1085 hit/26028",
+          "status": "200",
+          "server-timing": "cache;desc=\"hit-front\"",
+          "content-length": "17110",
+          "x-client-ip": "130.245.145.210",
+          "last-modified": "Wed, 28 Aug 2019 11:27:35 GMT",
+          "server": "mw1403.eqiad.wmnet",
+          "etag": "W/\"a6c9-5912bacf73e55\"",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "content-type": "image/svg+xml",
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=86400, max-age=86400",
+          "accept-ranges": "bytes",
+          "expires": "Tue, 18 May 2021 02:40:11 GMT"
+        },
+        "mimeType": "image/svg+xml",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "208.80.154.224",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 173,
+        "timing": {
+          "requestTime": 6480292.196662,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.2,
+          "sendEnd": 0.308,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 50.45
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.wikipedia.org",
+          "sanList": [
+            "*.m.mediawiki.org",
+            "*.m.wikibooks.org",
+            "*.m.wikidata.org",
+            "*.m.wikimedia.org",
+            "*.m.wikinews.org",
+            "*.m.wikipedia.org",
+            "*.m.wikiquote.org",
+            "*.m.wikisource.org",
+            "*.m.wikiversity.org",
+            "*.m.wikivoyage.org",
+            "*.m.wiktionary.org",
+            "*.mediawiki.org",
+            "*.planet.wikimedia.org",
+            "*.wikibooks.org",
+            "*.wikidata.org",
+            "*.wikimedia.org",
+            "*.wikimediafoundation.org",
+            "*.wikinews.org",
+            "*.wikipedia.org",
+            "*.wikiquote.org",
+            "*.wikisource.org",
+            "*.wikiversity.org",
+            "*.wikivoyage.org",
+            "*.wiktionary.org",
+            "*.wmfusercontent.org",
+            "mediawiki.org",
+            "w.wiki",
+            "wikibooks.org",
+            "wikidata.org",
+            "wikimedia.org",
+            "wikimediafoundation.org",
+            "wikinews.org",
+            "wikipedia.org",
+            "wikiquote.org",
+            "wikisource.org",
+            "wikiversity.org",
+            "wikivoyage.org",
+            "wiktionary.org",
+            "wmfusercontent.org"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1584860501,
+          "validTo": 1592636501,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7319.8",
+      "timestamp": 6480292.664516,
+      "dataLength": 42697,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7319.8",
+      "timestamp": 6480292.675377,
+      "dataLength": 0,
+      "encodedDataLength": 17137
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "7319.8",
+      "timestamp": 6480292.248179,
+      "encodedDataLength": 17310,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "7319.9",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "timestamp": 6480292.675856,
+      "type": "Image",
+      "response": {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister@2x.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 10:38:37 GMT",
+          "age": "24623",
+          "x-cache-status": "hit-front",
+          "x-cache": "cp1089 hit, cp1085 hit/11145",
+          "status": "200",
+          "server-timing": "cache;desc=\"hit-front\"",
+          "content-length": "3412",
+          "x-client-ip": "130.245.145.210",
+          "last-modified": "Mon, 19 Mar 2018 11:07:26 GMT",
+          "server": "mw1320.eqiad.wmnet",
+          "etag": "\"d54-567c1f68d7393\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=86400, max-age=86400",
+          "accept-ranges": "bytes",
+          "expires": "Tue, 18 May 2021 10:38:37 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "208.80.154.224",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 128,
+        "timing": {
+          "requestTime": 6480292.217644,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.192,
+          "sendEnd": 0.406,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 30.962
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.wikipedia.org",
+          "sanList": [
+            "*.m.mediawiki.org",
+            "*.m.wikibooks.org",
+            "*.m.wikidata.org",
+            "*.m.wikimedia.org",
+            "*.m.wikinews.org",
+            "*.m.wikipedia.org",
+            "*.m.wikiquote.org",
+            "*.m.wikisource.org",
+            "*.m.wikiversity.org",
+            "*.m.wikivoyage.org",
+            "*.m.wiktionary.org",
+            "*.mediawiki.org",
+            "*.planet.wikimedia.org",
+            "*.wikibooks.org",
+            "*.wikidata.org",
+            "*.wikimedia.org",
+            "*.wikimediafoundation.org",
+            "*.wikinews.org",
+            "*.wikipedia.org",
+            "*.wikiquote.org",
+            "*.wikisource.org",
+            "*.wikiversity.org",
+            "*.wikivoyage.org",
+            "*.wiktionary.org",
+            "*.wmfusercontent.org",
+            "mediawiki.org",
+            "w.wiki",
+            "wikibooks.org",
+            "wikidata.org",
+            "wikimedia.org",
+            "wikimediafoundation.org",
+            "wikinews.org",
+            "wikipedia.org",
+            "wikiquote.org",
+            "wikisource.org",
+            "wikiversity.org",
+            "wikivoyage.org",
+            "wiktionary.org",
+            "wmfusercontent.org"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1584860501,
+          "validTo": 1592636501,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7319.9",
+      "timestamp": 6480292.67598,
+      "dataLength": 3412,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7319.9",
+      "timestamp": 6480292.6763,
+      "dataLength": 0,
+      "encodedDataLength": 3430
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "7319.9",
+      "timestamp": 6480292.249177,
+      "encodedDataLength": 3558,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7319.5",
+      "timestamp": 6480292.677694,
+      "dataLength": 0,
+      "encodedDataLength": 8939
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "7319.5",
+      "timestamp": 6480292.242001,
+      "encodedDataLength": 9069,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "7319.6",
+      "timestamp": 6480292.721485,
+      "dataLength": 0,
+      "encodedDataLength": 624
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "7319.6",
+      "timestamp": 6480292.24279,
+      "encodedDataLength": 691,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 6480292.733939
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "name": "DOMContentLoaded",
+      "timestamp": 6480292.733939
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "name": "firstPaint",
+      "timestamp": 6480292.671031
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "name": "firstContentfulPaint",
+      "timestamp": 6480292.671031
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "name": "firstImagePaint",
+      "timestamp": 6480292.671031
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 6480292.671031
+    }
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 6480292.735275
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "name": "load",
+      "timestamp": 6480292.735275
+    }
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "name": "networkAlmostIdle",
+      "timestamp": 6480292.733949
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 6480292.671031
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "F69A0C3CF072F2D4304F6659BDEB3982",
+      "loaderId": "B4C0A7122786532875E310BE6E4D8082",
+      "name": "networkIdle",
+      "timestamp": 6480292.733949
+    }
+  }
+]

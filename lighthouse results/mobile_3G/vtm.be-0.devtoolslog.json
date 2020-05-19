@@ -1,0 +1,1876 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "B97F1C55C9429171617B5AA8EF515082",
+      "name": "commit",
+      "timestamp": 6480436.873762
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "B97F1C55C9429171617B5AA8EF515082",
+      "name": "DOMContentLoaded",
+      "timestamp": 6480436.873821
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "B97F1C55C9429171617B5AA8EF515082",
+      "name": "load",
+      "timestamp": 6480436.874033
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "B97F1C55C9429171617B5AA8EF515082",
+      "name": "networkAlmostIdle",
+      "timestamp": 6480436.874347
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "B97F1C55C9429171617B5AA8EF515082",
+      "name": "networkIdle",
+      "timestamp": 6480436.874347
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "AE8A7592343645A8221CF222314AE547",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "documentURL": "https://vtm.be/",
+      "request": {
+        "url": "https://vtm.be/",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "document"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6480436.91245,
+      "wallTime": 1589823086.363697,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Document",
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "B97F1C55C9429171617B5AA8EF515082",
+      "name": "networkAlmostIdle",
+      "timestamp": 6480436.874347
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "B97F1C55C9429171617B5AA8EF515082",
+      "name": "networkIdle",
+      "timestamp": 6480436.874347
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "AE8A7592343645A8221CF222314AE547",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "vtm.be",
+        ":scheme": "https",
+        ":path": "/",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "document",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "AE8A7592343645A8221CF222314AE547",
+      "blockedCookies": [],
+      "headers": {
+        "status": "302",
+        "server": "AkamaiGHost",
+        "content-length": "0",
+        "location": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "date": "Mon, 18 May 2020 17:31:27 GMT",
+        "access-control-max-age": "86400",
+        "access-control-allow-credentials": "false",
+        "access-control-allow-headers": "*",
+        "access-control-allow-methods": "GET,POST",
+        "access-control-allow-origin": "*"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "AE8A7592343645A8221CF222314AE547",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "documentURL": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+      "request": {
+        "url": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "document"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6480437.768438,
+      "wallTime": 1589823087.219774,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectResponse": {
+        "url": "https://vtm.be/",
+        "status": 302,
+        "statusText": "",
+        "headers": {
+          "status": "302",
+          "server": "AkamaiGHost",
+          "content-length": "0",
+          "location": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+          "date": "Mon, 18 May 2020 17:31:27 GMT",
+          "access-control-max-age": "86400",
+          "access-control-allow-credentials": "false",
+          "access-control-allow-headers": "*",
+          "access-control-allow-methods": "GET,POST",
+          "access-control-allow-origin": "*"
+        },
+        "mimeType": "",
+        "requestHeaders": {
+          ":method": "GET",
+          ":authority": "vtm.be",
+          ":scheme": "https",
+          ":path": "/",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "sec-fetch-dest": "document",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+          "sec-fetch-site": "none",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-user": "?1",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US"
+        },
+        "connectionReused": false,
+        "connectionId": 12,
+        "remoteIPAddress": "184.51.148.155",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 268,
+        "timing": {
+          "requestTime": 6480436.913209,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 113.638,
+          "dnsEnd": 794.141,
+          "connectStart": 794.141,
+          "connectEnd": 843.194,
+          "sslStart": 802.387,
+          "sslEnd": 843.163,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 843.417,
+          "sendEnd": 843.689,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 854.437
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "persgroep.com",
+          "sanList": [
+            "acc.exclusief.trouw.nl",
+            "acc.inclusief.volkskrant.nl",
+            "acc.meer.parool.nl",
+            "acc.rodeneuzendag.be",
+            "acc.voordeel.ad.nl",
+            "acceptatie.deopendagenkalender.nl",
+            "acceptatie.persgroep.be",
+            "acceptatie.persgroepadvertising.be",
+            "acceptatie.persgroepinternational.be",
+            "admin.provinciekieswijzer.nl",
+            "adops.persgroeponline.be",
+            "api.derondevanfreek.be",
+            "api.provinciekieswijzer.nl",
+            "club.ad.nl",
+            "club.bd.nl",
+            "club.bndestem.nl",
+            "club.destentor.nl",
+            "club.dg.nl",
+            "club.ed.nl",
+            "club.gelderlander.nl",
+            "club.pzc.nl",
+            "club.tubantia.nl",
+            "corporate.projectvia.be",
+            "depersgroep.annual-report2018.eu",
+            "depersgroep.jaarverslag2018.eu",
+            "dev-api.derondevanfreek.be",
+            "dev.corporate.projectvia.be",
+            "dev.derondevanfreek.be",
+            "dev.jobs.projectvia.be",
+            "dev.neo.projectvia.be",
+            "dev.vtm.be",
+            "edition-content.acc.persgroep.net",
+            "edition-content.persgroep.net",
+            "exclusief.trouw.nl",
+            "formulieren.persgroep.nl",
+            "gdpr.persgroep.net",
+            "images.persgroep.be",
+            "images.persgroepadvertising.be",
+            "inclusief.volkskrant.nl",
+            "jobs.projectvia.be",
+            "meer.parool.nl",
+            "myprivacy.medialaan.be",
+            "myprivacy.persgroep.net",
+            "neo.projectvia.be",
+            "new.brandy-jingles.com",
+            "pers.medialaan-persgroep.be",
+            "persgroep.be",
+            "persgroep.com",
+            "projectvia.persgroep.net",
+            "secure-acc.7sur7.be",
+            "secure-acc.topics.be",
+            "secure-acc.topics.nl",
+            "secure.topics.be",
+            "secure.topics.nl",
+            "sportimages-acc.persgroep.net",
+            "sportimages-test.persgroep.net",
+            "sportimages.persgroep.net",
+            "stag.vtm.be",
+            "test.corporate.projectvia.be",
+            "test.jobs.projectvia.be",
+            "test.neo.projectvia.be",
+            "test.rodeneuzendag.be",
+            "topics.be",
+            "topics.nl",
+            "voordeel.ad.nl",
+            "vtm.be",
+            "www.advertising.dpgmedia.be",
+            "www.briefingstool.be",
+            "www.deopendagenkalender.nl",
+            "www.derondevanfreek.be",
+            "www.dpgmedia.be",
+            "www.dpgmedia.nl",
+            "www.dpgmediagroup.com",
+            "www.ecoprintcenter.be",
+            "www.epc-nv.be",
+            "www.kindergeluk.be",
+            "www.medialaan-persgroep.be",
+            "www.nina.be",
+            "www.persgroep.be",
+            "www.persgroep.com",
+            "www.persgroepadvertising.be",
+            "www.persgroepadvertising.nl",
+            "www.persgroepinternational.be",
+            "www.persgroepinternational.com",
+            "www.projectvia.be",
+            "www.provinciekieswijzer.nl",
+            "www.rodeneuzendag.be",
+            "www.topics.be",
+            "www.topics.nl",
+            "www.vtm.be",
+            "www.werkenbij.dpgmedia.be",
+            "www.werkenbijdepersgroep.be",
+            "www.werkenbijmedialaan-persgroep.be"
+          ],
+          "issuer": "Let's Encrypt Authority X3",
+          "validFrom": 1588860116,
+          "validTo": 1596636116,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "type": "Document",
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "AE8A7592343645A8221CF222314AE547",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "myprivacy.dpgmedia.be",
+        ":scheme": "https",
+        ":path": "/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "document",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "AE8A7592343645A8221CF222314AE547",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "text/html;charset=UTF-8",
+        "server": "nginx",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "1; mode=block",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer-when-downgrade, strict-origin-when-cross-origin",
+        "expect-ct": "enforce, max-age=63072000",
+        "content-security-policy": "default-src 'none'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com 'nonce-09c3280f5c424ad8a057db7c1bf96f07'; style-src 'self' 'unsafe-inline'; img-src 'self' https://www.google-analytics.com; font-src 'self' ; frame-ancestors 'none';",
+        "strict-transport-security": "max-age=63072000; includeSubDomains",
+        "content-language": "nl-BE",
+        "vary": "Accept-Encoding",
+        "content-encoding": "gzip",
+        "date": "Mon, 18 May 2020 17:31:27 GMT",
+        "content-length": "7742"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "AE8A7592343645A8221CF222314AE547",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "timestamp": 6480437.911858,
+      "type": "Document",
+      "response": {
+        "url": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "status": "200",
+          "content-type": "text/html;charset=UTF-8",
+          "server": "nginx",
+          "x-frame-options": "DENY",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade, strict-origin-when-cross-origin",
+          "expect-ct": "enforce, max-age=63072000",
+          "content-security-policy": "default-src 'none'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com 'nonce-09c3280f5c424ad8a057db7c1bf96f07'; style-src 'self' 'unsafe-inline'; img-src 'self' https://www.google-analytics.com; font-src 'self' ; frame-ancestors 'none';",
+          "strict-transport-security": "max-age=63072000; includeSubDomains",
+          "content-language": "nl-BE",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "date": "Mon, 18 May 2020 17:31:27 GMT",
+          "content-length": "7742"
+        },
+        "mimeType": "text/html",
+        "requestHeaders": {
+          ":method": "GET",
+          ":authority": "myprivacy.dpgmedia.be",
+          ":scheme": "https",
+          ":path": "/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "sec-fetch-dest": "document",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+          "sec-fetch-site": "none",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-user": "?1",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US"
+        },
+        "connectionReused": false,
+        "connectionId": 20,
+        "remoteIPAddress": "184.51.148.192",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 500,
+        "timing": {
+          "requestTime": 6480437.769024,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.198,
+          "dnsEnd": 10.742,
+          "connectStart": 10.742,
+          "connectEnd": 35.676,
+          "sslStart": 18.678,
+          "sslEnd": 35.671,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 35.81,
+          "sendEnd": 35.944,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 141.481
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.dpgmedia.be",
+          "sanList": [
+            "*.dpgmedia.be",
+            "dpgmedia.be"
+          ],
+          "issuer": "DigiCert Secure Site ECC CA-1",
+          "validFrom": 1586304000,
+          "validTo": 1625745600,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "EA77810BDD732B46A087C707A47BEC67"
+    }
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "name": "init",
+      "timestamp": 6480437.91413
+    }
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "EA77810BDD732B46A087C707A47BEC67",
+        "loaderId": "AE8A7592343645A8221CF222314AE547",
+        "url": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "securityOrigin": "https://myprivacy.dpgmedia.be",
+        "mimeType": "text/html"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "AE8A7592343645A8221CF222314AE547",
+      "timestamp": 6480437.920364,
+      "dataLength": 24648,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "AE8A7592343645A8221CF222314AE547",
+      "timestamp": 6480437.911806,
+      "encodedDataLength": 8278,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "8360.2",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "myprivacy.dpgmedia.be",
+        ":scheme": "https",
+        ":path": "/static/css/privacywall-vtm-cbd4df5c3a.css",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "style",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "8360.3",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "myprivacy.dpgmedia.be",
+        ":scheme": "https",
+        ":path": "/static/images/logo/logo-vtm-vtmgo-ad53a9ffdc.svg",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "8360.5",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "myprivacy.dpgmedia.be",
+        ":scheme": "https",
+        ":path": "/static/js/privacywall.js",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "script",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "8360.2",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "documentURL": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+      "request": {
+        "url": "https://myprivacy.dpgmedia.be/static/css/privacywall-vtm-cbd4df5c3a.css",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "style"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "timestamp": 6480437.922362,
+      "wallTime": 1589823087.373598,
+      "initiator": {
+        "type": "parser",
+        "url": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "lineNumber": 0
+      },
+      "type": "Stylesheet",
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "8360.3",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "documentURL": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+      "request": {
+        "url": "https://myprivacy.dpgmedia.be/static/images/logo/logo-vtm-vtmgo-ad53a9ffdc.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "timestamp": 6480437.922628,
+      "wallTime": 1589823087.373864,
+      "initiator": {
+        "type": "parser",
+        "url": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "lineNumber": 0
+      },
+      "type": "Image",
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "8360.4",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "documentURL": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+      "request": {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://myprivacy.dpgmedia.be/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "script"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "timestamp": 6480437.922864,
+      "wallTime": 1589823087.3741,
+      "initiator": {
+        "type": "parser",
+        "url": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "lineNumber": 0
+      },
+      "type": "Script",
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "8360.5",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "documentURL": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+      "request": {
+        "url": "https://myprivacy.dpgmedia.be/static/js/privacywall.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "script"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Medium",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "timestamp": 6480437.923108,
+      "wallTime": 1589823087.374345,
+      "initiator": {
+        "type": "parser",
+        "url": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+        "lineNumber": 7
+      },
+      "type": "Script",
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "8360.5",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "application/javascript",
+        "server": "nginx",
+        "last-modified": "Wed, 29 Apr 2020 12:50:28 GMT",
+        "accept-ranges": "bytes",
+        "content-encoding": "gzip",
+        "content-length": "1778",
+        "date": "Mon, 18 May 2020 17:31:27 GMT",
+        "vary": "Accept-Encoding"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "8360.5",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "timestamp": 6480437.937004,
+      "type": "Script",
+      "response": {
+        "url": "https://myprivacy.dpgmedia.be/static/js/privacywall.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:31:27 GMT",
+          "content-encoding": "gzip",
+          "last-modified": "Wed, 29 Apr 2020 12:50:28 GMT",
+          "server": "nginx",
+          "vary": "Accept-Encoding",
+          "content-type": "application/javascript",
+          "status": "200",
+          "accept-ranges": "bytes",
+          "content-length": "1778"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 20,
+        "remoteIPAddress": "184.51.148.192",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 122,
+        "timing": {
+          "requestTime": 6480437.923741,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.589,
+          "sendEnd": 0.718,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 12.105
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.dpgmedia.be",
+          "sanList": [
+            "*.dpgmedia.be",
+            "dpgmedia.be"
+          ],
+          "issuer": "DigiCert Secure Site ECC CA-1",
+          "validFrom": 1586304000,
+          "validTo": 1625745600,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "EA77810BDD732B46A087C707A47BEC67"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "8360.5",
+      "timestamp": 6480437.937102,
+      "dataLength": 4526,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "8360.5",
+      "timestamp": 6480437.937553,
+      "dataLength": 0,
+      "encodedDataLength": 1796
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "8360.5",
+      "timestamp": 6480437.93679,
+      "encodedDataLength": 1918,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "8360.2",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "text/css",
+        "server": "nginx",
+        "last-modified": "Wed, 29 Apr 2020 12:50:28 GMT",
+        "accept-ranges": "bytes",
+        "content-encoding": "gzip",
+        "content-length": "3023",
+        "date": "Mon, 18 May 2020 17:31:27 GMT",
+        "vary": "Accept-Encoding"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "8360.2",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "timestamp": 6480437.938506,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://myprivacy.dpgmedia.be/static/css/privacywall-vtm-cbd4df5c3a.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:31:27 GMT",
+          "content-encoding": "gzip",
+          "last-modified": "Wed, 29 Apr 2020 12:50:28 GMT",
+          "server": "nginx",
+          "vary": "Accept-Encoding",
+          "content-type": "text/css",
+          "status": "200",
+          "accept-ranges": "bytes",
+          "content-length": "3023"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 20,
+        "remoteIPAddress": "184.51.148.192",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 112,
+        "timing": {
+          "requestTime": 6480437.922726,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.607,
+          "sendEnd": 1.579,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 15.088
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.dpgmedia.be",
+          "sanList": [
+            "*.dpgmedia.be",
+            "dpgmedia.be"
+          ],
+          "issuer": "DigiCert Secure Site ECC CA-1",
+          "validFrom": 1586304000,
+          "validTo": 1625745600,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "EA77810BDD732B46A087C707A47BEC67"
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "8360.3",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "image/svg+xml",
+        "server": "nginx",
+        "last-modified": "Wed, 29 Apr 2020 12:50:28 GMT",
+        "accept-ranges": "bytes",
+        "vary": "Accept-Encoding",
+        "content-encoding": "gzip",
+        "date": "Mon, 18 May 2020 17:31:27 GMT",
+        "content-length": "1027"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "8360.3",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "timestamp": 6480437.939353,
+      "type": "Image",
+      "response": {
+        "url": "https://myprivacy.dpgmedia.be/static/images/logo/logo-vtm-vtmgo-ad53a9ffdc.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:31:27 GMT",
+          "content-encoding": "gzip",
+          "last-modified": "Wed, 29 Apr 2020 12:50:28 GMT",
+          "server": "nginx",
+          "vary": "Accept-Encoding",
+          "content-type": "image/svg+xml",
+          "status": "200",
+          "accept-ranges": "bytes",
+          "content-length": "1027"
+        },
+        "mimeType": "image/svg+xml",
+        "connectionReused": true,
+        "connectionId": 20,
+        "remoteIPAddress": "184.51.148.192",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 117,
+        "timing": {
+          "requestTime": 6480437.92318,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 1.063,
+          "sendEnd": 1.285,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 15.541
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.dpgmedia.be",
+          "sanList": [
+            "*.dpgmedia.be",
+            "dpgmedia.be"
+          ],
+          "issuer": "DigiCert Secure Site ECC CA-1",
+          "validFrom": 1586304000,
+          "validTo": 1625745600,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "EA77810BDD732B46A087C707A47BEC67"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "8360.2",
+      "timestamp": 6480437.939616,
+      "dataLength": 11544,
+      "encodedDataLength": 3041
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "8360.2",
+      "timestamp": 6480437.938495,
+      "encodedDataLength": 3153,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "8360.4",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "www.googletagmanager.com",
+        ":scheme": "https",
+        ":path": "/gtag/js?id=UA-6602938-15",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "script",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://myprivacy.dpgmedia.be/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "8360.3",
+      "timestamp": 6480437.94057,
+      "dataLength": 1993,
+      "encodedDataLength": 1045
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "8360.3",
+      "timestamp": 6480437.939236,
+      "encodedDataLength": 1162,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 6480437.965236
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "name": "DOMContentLoaded",
+      "timestamp": 6480437.965236
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "8360.4",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "application/javascript; charset=UTF-8",
+        "access-control-allow-origin": "*",
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "Cache-Control",
+        "content-encoding": "br",
+        "vary": "Accept-Encoding",
+        "date": "Mon, 18 May 2020 17:31:27 GMT",
+        "expires": "Mon, 18 May 2020 17:31:27 GMT",
+        "cache-control": "private, max-age=900",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "server": "Google Tag Manager",
+        "content-length": "33132",
+        "x-xss-protection": "0",
+        "alt-svc": "h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "8360.4",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "timestamp": 6480437.983081,
+      "type": "Script",
+      "response": {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:31:27 GMT",
+          "content-encoding": "br",
+          "alt-svc": "h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+          "server": "Google Tag Manager",
+          "access-control-allow-origin": "*",
+          "vary": "Accept-Encoding",
+          "content-type": "application/javascript; charset=UTF-8",
+          "status": "200",
+          "cache-control": "private, max-age=900",
+          "access-control-allow-credentials": "true",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "access-control-allow-headers": "Cache-Control",
+          "content-length": "33132",
+          "x-xss-protection": "0",
+          "expires": "Mon, 18 May 2020 17:31:27 GMT"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": false,
+        "connectionId": 41,
+        "remoteIPAddress": "172.217.11.8",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 457,
+        "timing": {
+          "requestTime": 6480437.923518,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.581,
+          "dnsEnd": 1.354,
+          "connectStart": 1.354,
+          "connectEnd": 18.53,
+          "sslStart": 4.666,
+          "sslEnd": 18.523,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 18.682,
+          "sendEnd": 18.8,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 55.52
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.google-analytics.com",
+          "sanList": [
+            "*.google-analytics.com",
+            "*.fps.goog",
+            "app-measurement.com",
+            "fps.goog",
+            "google-analytics.com",
+            "googleoptimize.com",
+            "googletagmanager.com",
+            "service.urchin.com",
+            "ssl.google-analytics.com",
+            "urchin.com",
+            "www.google-analytics.com",
+            "www.googleoptimize.com",
+            "www.googletagmanager.com"
+          ],
+          "issuer": "GTS CA 1O1",
+          "validFrom": 1588059821,
+          "validTo": 1595317421,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "EA77810BDD732B46A087C707A47BEC67"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "8360.4",
+      "timestamp": 6480437.983196,
+      "dataLength": 84326,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "8360.4",
+      "timestamp": 6480437.989031,
+      "dataLength": 0,
+      "encodedDataLength": 33168
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "8360.4",
+      "timestamp": 6480437.982952,
+      "encodedDataLength": 33625,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "name": "firstPaint",
+      "timestamp": 6480437.983658
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "name": "firstContentfulPaint",
+      "timestamp": 6480437.983658
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "name": "firstImagePaint",
+      "timestamp": 6480437.983658
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 6480437.983658
+    }
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 6480437.996072
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "name": "load",
+      "timestamp": 6480437.996072
+    }
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67"
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "8360.10",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "documentURL": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+      "request": {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://myprivacy.dpgmedia.be/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "script"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "timestamp": 6480438.0072,
+      "wallTime": 1589823087.458436,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "jc",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 59,
+              "columnNumber": 188
+            },
+            {
+              "functionName": "Hi",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 172,
+              "columnNumber": 5
+            },
+            {
+              "functionName": "",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 172,
+              "columnNumber": 64
+            },
+            {
+              "functionName": "Jc",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 65,
+              "columnNumber": 388
+            },
+            {
+              "functionName": "Rc",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 66,
+              "columnNumber": 55
+            },
+            {
+              "functionName": "Ii",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 172,
+              "columnNumber": 50
+            },
+            {
+              "functionName": "dj",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 184,
+              "columnNumber": 240
+            },
+            {
+              "functionName": "Ui.flush",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 188,
+              "columnNumber": 450
+            },
+            {
+              "functionName": "Ui.push",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 187,
+              "columnNumber": 138
+            },
+            {
+              "functionName": "Xi",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 182,
+              "columnNumber": 118
+            },
+            {
+              "functionName": "",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 246,
+              "columnNumber": 235
+            },
+            {
+              "functionName": "Ab",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 46,
+              "columnNumber": 395
+            },
+            {
+              "functionName": "e",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 124,
+              "columnNumber": 137
+            },
+            {
+              "functionName": "qh",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 125,
+              "columnNumber": 517
+            },
+            {
+              "functionName": "sh",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 127,
+              "columnNumber": 226
+            },
+            {
+              "functionName": "Wj",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 197,
+              "columnNumber": 111
+            },
+            {
+              "functionName": "Vj",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 196,
+              "columnNumber": 247
+            },
+            {
+              "functionName": "Xj",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 199,
+              "columnNumber": 356
+            },
+            {
+              "functionName": "Yj",
+              "scriptId": "12",
+              "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+              "lineNumber": 200,
+              "columnNumber": 29
+            }
+          ],
+          "parent": {
+            "description": "setTimeout",
+            "callFrames": [
+              {
+                "functionName": "I",
+                "scriptId": "12",
+                "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+                "lineNumber": 60,
+                "columnNumber": 465
+              },
+              {
+                "functionName": "ak",
+                "scriptId": "12",
+                "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+                "lineNumber": 202,
+                "columnNumber": 138
+              },
+              {
+                "functionName": "tn",
+                "scriptId": "12",
+                "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+                "lineNumber": 250,
+                "columnNumber": 483
+              },
+              {
+                "functionName": "",
+                "scriptId": "12",
+                "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+                "lineNumber": 254,
+                "columnNumber": 0
+              },
+              {
+                "functionName": "",
+                "scriptId": "12",
+                "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+                "lineNumber": 254,
+                "columnNumber": 5
+              },
+              {
+                "functionName": "",
+                "scriptId": "12",
+                "url": "https://www.googletagmanager.com/gtag/js?id=UA-6602938-15",
+                "lineNumber": 256,
+                "columnNumber": 2
+              }
+            ]
+          }
+        }
+      },
+      "type": "Script",
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "8360.10",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "www.google-analytics.com",
+        ":scheme": "https",
+        ":path": "/analytics.js",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "script",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://myprivacy.dpgmedia.be/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "8360.10",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "strict-transport-security": "max-age=10886400; includeSubDomains; preload",
+        "date": "Mon, 18 May 2020 16:33:47 GMT",
+        "expires": "Mon, 18 May 2020 18:33:47 GMT",
+        "last-modified": "Thu, 30 Apr 2020 21:54:13 GMT",
+        "x-content-type-options": "nosniff",
+        "content-type": "text/javascript",
+        "vary": "Accept-Encoding",
+        "content-encoding": "gzip",
+        "server": "Golfe2",
+        "content-length": "18433",
+        "cache-control": "public, max-age=7200",
+        "age": "3460",
+        "alt-svc": "h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "8360.10",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "timestamp": 6480438.0295,
+      "type": "Script",
+      "response": {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "strict-transport-security": "max-age=10886400; includeSubDomains; preload",
+          "content-encoding": "gzip",
+          "x-content-type-options": "nosniff",
+          "last-modified": "Thu, 30 Apr 2020 21:54:13 GMT",
+          "server": "Golfe2",
+          "age": "3460",
+          "date": "Mon, 18 May 2020 16:33:47 GMT",
+          "vary": "Accept-Encoding",
+          "content-type": "text/javascript",
+          "status": "200",
+          "cache-control": "public, max-age=7200",
+          "alt-svc": "h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+          "content-length": "18433",
+          "expires": "Mon, 18 May 2020 18:33:47 GMT"
+        },
+        "mimeType": "text/javascript",
+        "connectionReused": false,
+        "connectionId": 50,
+        "remoteIPAddress": "172.217.3.110",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 413,
+        "timing": {
+          "requestTime": 6480438.007644,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.211,
+          "dnsEnd": 0.97,
+          "connectStart": 0.97,
+          "connectEnd": 16.61,
+          "sslStart": 4.032,
+          "sslEnd": 16.593,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 16.778,
+          "sendEnd": 16.913,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 20.328
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "*.google-analytics.com",
+          "sanList": [
+            "*.google-analytics.com",
+            "*.fps.goog",
+            "app-measurement.com",
+            "fps.goog",
+            "google-analytics.com",
+            "googleoptimize.com",
+            "googletagmanager.com",
+            "service.urchin.com",
+            "ssl.google-analytics.com",
+            "urchin.com",
+            "www.google-analytics.com",
+            "www.googleoptimize.com",
+            "www.googletagmanager.com"
+          ],
+          "issuer": "GTS CA 1O1",
+          "validFrom": 1588059821,
+          "validTo": 1595317421,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "EA77810BDD732B46A087C707A47BEC67"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "8360.10",
+      "timestamp": 6480438.029622,
+      "dataLength": 45892,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "8360.10",
+      "timestamp": 6480438.029172,
+      "encodedDataLength": 18864,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "8360.11",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "www.google-analytics.com",
+        ":scheme": "https",
+        ":path": "/r/collect?v=1&_v=j82&aip=1&a=2112655475&t=pageview&_s=1&dl=https%3A%2F%2Fmyprivacy.dpgmedia.be%2F%3FsiteKey%3DSfOVdJNqUJc3G9JL%26callbackUrl%3Dhttps%253a%252f%252fvtm.be%252fprivacy-wall%252fcallback%253foriginalUrl%253d%2525252f&ul=en-us&de=UTF-8&dt=Privacy%20settings&sd=24-bit&sr=412x660&vp=412x660&je=0&_u=IEBAAUAB~&jid=181644087&gjid=392505025&cid=557372675.1589823087&tid=UA-6602938-15&_gid=1726838833.1589823087&_r=1&gtm=2ou561&z=1553993872",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://myprivacy.dpgmedia.be/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "8360.11",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "documentURL": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+      "request": {
+        "url": "https://www.google-analytics.com/r/collect?v=1&_v=j82&aip=1&a=2112655475&t=pageview&_s=1&dl=https%3A%2F%2Fmyprivacy.dpgmedia.be%2F%3FsiteKey%3DSfOVdJNqUJc3G9JL%26callbackUrl%3Dhttps%253a%252f%252fvtm.be%252fprivacy-wall%252fcallback%253foriginalUrl%253d%2525252f&ul=en-us&de=UTF-8&dt=Privacy%20settings&sd=24-bit&sr=412x660&vp=412x660&je=0&_u=IEBAAUAB~&jid=181644087&gjid=392505025&cid=557372675.1589823087&tid=UA-6602938-15&_gid=1726838833.1589823087&_r=1&gtm=2ou561&z=1553993872",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://myprivacy.dpgmedia.be/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "timestamp": 6480438.056614,
+      "wallTime": 1589823087.50785,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [],
+          "parent": {
+            "description": "Image",
+            "callFrames": [
+              {
+                "functionName": "ta",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 24,
+                "columnNumber": 87
+              },
+              {
+                "functionName": "wc",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 33,
+                "columnNumber": 690
+              },
+              {
+                "functionName": "ba",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 33,
+                "columnNumber": 503
+              },
+              {
+                "functionName": "Sa",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 38,
+                "columnNumber": 377
+              },
+              {
+                "functionName": "Ha.D",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 36,
+                "columnNumber": 457
+              },
+              {
+                "functionName": "pc.send",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 74,
+                "columnNumber": 260
+              },
+              {
+                "functionName": "X.b.<computed>",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 48,
+                "columnNumber": 266
+              },
+              {
+                "functionName": "Z.v",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 82,
+                "columnNumber": 351
+              },
+              {
+                "functionName": "Z.D",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 81,
+                "columnNumber": 239
+              },
+              {
+                "functionName": "N.N",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 84,
+                "columnNumber": 224
+              },
+              {
+                "functionName": "rc",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 74,
+                "columnNumber": 466
+              },
+              {
+                "functionName": "z",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 74,
+                "columnNumber": 498
+              },
+              {
+                "functionName": "",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 84,
+                "columnNumber": 346
+              },
+              {
+                "functionName": "",
+                "scriptId": "13",
+                "url": "https://www.google-analytics.com/analytics.js",
+                "lineNumber": 84,
+                "columnNumber": 398
+              }
+            ]
+          }
+        }
+      },
+      "type": "Image",
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "8360.11",
+      "blockedCookies": [],
+      "headers": {
+        "status": "302",
+        "location": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-6602938-15&cid=557372675.1589823087&jid=181644087&_gid=1726838833.1589823087&gjid=392505025&_v=j82&z=1553993872",
+        "access-control-allow-origin": "*",
+        "date": "Mon, 18 May 2020 17:31:27 GMT",
+        "pragma": "no-cache",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "cache-control": "no-cache, no-store, must-revalidate",
+        "last-modified": "Sun, 17 May 1998 03:00:00 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "server": "Golfe2",
+        "content-length": "417",
+        "alt-svc": "h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "8360.12",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "documentURL": "https://myprivacy.dpgmedia.be/?siteKey=SfOVdJNqUJc3G9JL&callbackUrl=https%3a%2f%2fvtm.be%2fprivacy-wall%2fcallback%3foriginalUrl%3d%25252f",
+      "request": {
+        "url": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-6602938-15&cid=557372675.1589823087&jid=181644087&_gid=1726838833.1589823087&gjid=392505025&_v=j82&z=1553993872",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://myprivacy.dpgmedia.be/"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin"
+      },
+      "timestamp": 6480438.075006,
+      "wallTime": 1589823087.526242,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Image",
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.loadingFailed",
+    "params": {
+      "requestId": "8360.12",
+      "timestamp": 6480438.075008,
+      "type": "Image",
+      "errorText": "",
+      "canceled": false,
+      "blockedReason": "csp"
+    }
+  },
+  {
+    "method": "Network.loadingFailed",
+    "params": {
+      "requestId": "8360.11",
+      "timestamp": 6480438.075127,
+      "type": "Image",
+      "errorText": "net::ERR_ABORTED",
+      "canceled": true
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "name": "networkAlmostIdle",
+      "timestamp": 6480437.965243
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 6480437.983658
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "EA77810BDD732B46A087C707A47BEC67",
+      "loaderId": "AE8A7592343645A8221CF222314AE547",
+      "name": "networkIdle",
+      "timestamp": 6480438.075129
+    }
+  }
+]

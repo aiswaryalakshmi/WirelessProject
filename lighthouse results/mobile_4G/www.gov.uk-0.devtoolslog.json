@@ -1,0 +1,4654 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "AF0C9588CBD2123B7FB6D67CA3058502",
+      "name": "commit",
+      "timestamp": 6481009.598535
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "AF0C9588CBD2123B7FB6D67CA3058502",
+      "name": "DOMContentLoaded",
+      "timestamp": 6481009.598596
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "AF0C9588CBD2123B7FB6D67CA3058502",
+      "name": "load",
+      "timestamp": 6481009.598802
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "AF0C9588CBD2123B7FB6D67CA3058502",
+      "name": "networkAlmostIdle",
+      "timestamp": 6481009.599121
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "AF0C9588CBD2123B7FB6D67CA3058502",
+      "name": "networkIdle",
+      "timestamp": 6481009.599121
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "69E6F599D386510C6C2AF0C38D78551B",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://www.gov.uk/",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "document"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.637571,
+      "wallTime": 1589823659.088819,
+      "initiator": {
+        "type": "other"
+      },
+      "type": "Document",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "69E6F599D386510C6C2AF0C38D78551B",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "www.gov.uk",
+        ":scheme": "https",
+        ":path": "/",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "document",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "69E6F599D386510C6C2AF0C38D78551B",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "text/html; charset=utf-8",
+        "server": "nginx",
+        "cache-control": "max-age=1800, public",
+        "content-encoding": "gzip",
+        "content-security-policy-report-only": "default-src https: 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk; img-src 'self' data: *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net assets.digital.cabinet-office.gov.uk; script-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.signin.service.gov.uk *.ytimg.com www.youtube.com www.youtube-nocookie.com hmrc-uk.digital.nuance.com 'unsafe-inline'; style-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk 'unsafe-inline'; font-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk data:; connect-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.tax.service.gov.uk hmrc-uk.digital.nuance.com gov.klick2contact.com www.signin.service.gov.uk; object-src 'none'; frame-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.youtube.com www.youtube-nocookie.com; report-uri https://jhpno0hk6b.execute-api.eu-west-2.amazonaws.com/production",
+        "etag": "W/\"4ee36b686c36f95080e286b3826a4212\"",
+        "strict-transport-security": "max-age=31536000; preload",
+        "via": "2.0 router\n1.1 varnish\n1.1 varnish",
+        "x-frame-options": "ALLOWALL",
+        "x-request-id": "272fa31b-041f-4e19-89a9-db869636f2f0",
+        "link": "<https://assets.publishing.service.gov.uk>; rel=preconnect; crossorigin",
+        "fastly-backend-name": "origin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "age": "413",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT, HIT",
+        "x-cache-hits": "1",
+        "x-timer": "S1589823659.234582,VS0,VE1",
+        "vary": "Accept-Encoding",
+        "content-length": "11007"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "69E6F599D386510C6C2AF0C38D78551B",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.791707,
+      "type": "Document",
+      "response": {
+        "url": "https://www.gov.uk/",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "status": "200",
+          "content-type": "text/html; charset=utf-8",
+          "server": "nginx",
+          "cache-control": "max-age=1800, public",
+          "content-encoding": "gzip",
+          "content-security-policy-report-only": "default-src https: 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk; img-src 'self' data: *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net assets.digital.cabinet-office.gov.uk; script-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.signin.service.gov.uk *.ytimg.com www.youtube.com www.youtube-nocookie.com hmrc-uk.digital.nuance.com 'unsafe-inline'; style-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk 'unsafe-inline'; font-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk data:; connect-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.tax.service.gov.uk hmrc-uk.digital.nuance.com gov.klick2contact.com www.signin.service.gov.uk; object-src 'none'; frame-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.youtube.com www.youtube-nocookie.com; report-uri https://jhpno0hk6b.execute-api.eu-west-2.amazonaws.com/production",
+          "etag": "W/\"4ee36b686c36f95080e286b3826a4212\"",
+          "strict-transport-security": "max-age=31536000; preload",
+          "via": "2.0 router\n1.1 varnish\n1.1 varnish",
+          "x-frame-options": "ALLOWALL",
+          "x-request-id": "272fa31b-041f-4e19-89a9-db869636f2f0",
+          "link": "<https://assets.publishing.service.gov.uk>; rel=preconnect; crossorigin",
+          "fastly-backend-name": "origin",
+          "accept-ranges": "bytes",
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "age": "413",
+          "x-served-by": "cache-lga21954-LGA",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "1",
+          "x-timer": "S1589823659.234582,VS0,VE1",
+          "vary": "Accept-Encoding",
+          "content-length": "11007"
+        },
+        "mimeType": "text/html",
+        "requestHeaders": {
+          ":method": "GET",
+          ":authority": "www.gov.uk",
+          ":scheme": "https",
+          ":path": "/",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "sec-fetch-dest": "document",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+          "sec-fetch-site": "none",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-user": "?1",
+          "accept-encoding": "gzip, deflate, br",
+          "accept-language": "en-US"
+        },
+        "connectionReused": false,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 1272,
+        "timing": {
+          "requestTime": 6481009.638333,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 113.218,
+          "dnsEnd": 120.069,
+          "connectStart": 120.069,
+          "connectEnd": 143.17,
+          "sslStart": 127.004,
+          "sslEnd": 143.136,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 143.417,
+          "sendEnd": 143.68,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 151.934
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "name": "init",
+      "timestamp": 6481009.793925
+    }
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "91980EF13603BE0EE635A2A4711A1B34",
+        "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+        "url": "https://www.gov.uk/",
+        "securityOrigin": "https://www.gov.uk",
+        "mimeType": "text/html"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.80016,
+      "dataLength": 41926,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.794935,
+      "encodedDataLength": 12288,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.2",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "style"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.802848,
+      "wallTime": 1589823659.254085,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 14
+      },
+      "type": "Stylesheet",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.3",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "style"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.803105,
+      "wallTime": 1589823659.254342,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 19
+      },
+      "type": "Stylesheet",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.4",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/static-d8d904c31b0125a1627a2f0433c9ae99c997e2baad8855a6b44dbdf82f72e901.css",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "style"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.803307,
+      "wallTime": 1589823659.254543,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 33
+      },
+      "type": "Stylesheet",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.5",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/application-cd1c21d3c22fe11f97d1d60e5be7fe053a9e52856fe311a297fcdcfeca256f82.css",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "style"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.803705,
+      "wallTime": 1589823659.254941,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 43
+      },
+      "type": "Stylesheet",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.6",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/global-bar-init-afaa0f767004ce61fc4d1453ba39e4171654fc78993d0d81a2d47598f014a52d.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "script"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.803946,
+      "wallTime": 1589823659.255182,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 737
+      },
+      "type": "Script",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.7",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-c731c20e2995c576b0509d3bd776f7ab64a66b95363a3b5fae9864299ee594ed.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "script"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.804184,
+      "wallTime": 1589823659.25542,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 743
+      },
+      "type": "Script",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.8",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/application-324fdc83c89f0f95995773009c77052d1d50c97f1ecea80349d4f085caee6419.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "script"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.804422,
+      "wallTime": 1589823659.255658,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 744
+      },
+      "type": "Script",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.9",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/surveys-5bda3f4eefbce1d584961c032bcde7c72417fdfb41d514fd849d24f0641e6850.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "script"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.804662,
+      "wallTime": 1589823659.255898,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 745
+      },
+      "type": "Script",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.10",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/application-656ba4c45eb2a57d6926056affb6e7304c04415d03636b6595ede824789c6ae9.js",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "script"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.804904,
+      "wallTime": 1589823659.25614,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 750
+      },
+      "type": "Script",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.12",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/govuk-template-print-1076519521c2fffbbf75ab3b0d3b32ee2d96ac7e9778f1cdfac1771eefd1a1c0.css",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "style"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryLow",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.805395,
+      "wallTime": 1589823659.256631,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 17
+      },
+      "type": "Stylesheet",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.15",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/static-print-071035f1d28e1055dc5ca8831ba7f52068c25200bdd3de4a4238c98c710efa45.css",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "style"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryLow",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.806092,
+      "wallTime": 1589823659.257328,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 37
+      },
+      "type": "Stylesheet",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.17",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/print-9aaa77ffcc87b7252b176d4cf6eef2ae2e264f9dbf430a45c650c1b43c87727a.css",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "style"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryLow",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.80647,
+      "wallTime": 1589823659.257706,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 44
+      },
+      "type": "Stylesheet",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.2",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "style",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.3",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "style",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.5",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/frontend/application-cd1c21d3c22fe11f97d1d60e5be7fe053a9e52856fe311a297fcdcfeca256f82.css",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "style",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.4",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/static-d8d904c31b0125a1627a2f0433c9ae99c997e2baad8855a6b44dbdf82f72e901.css",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "style",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.7",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/libs/jquery/jquery-1.12.4-c731c20e2995c576b0509d3bd776f7ab64a66b95363a3b5fae9864299ee594ed.js",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "script",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.6",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/global-bar-init-afaa0f767004ce61fc4d1453ba39e4171654fc78993d0d81a2d47598f014a52d.js",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "script",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.10",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/frontend/application-656ba4c45eb2a57d6926056affb6e7304c04415d03636b6595ede824789c6ae9.js",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "script",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.9",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/surveys-5bda3f4eefbce1d584961c032bcde7c72417fdfb41d514fd849d24f0641e6850.js",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "script",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.8",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/application-324fdc83c89f0f95995773009c77052d1d50c97f1ecea80349d4f085caee6419.js",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "script",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.6",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "application/javascript",
+        "server": "nginx",
+        "last-modified": "Sat, 16 May 2020 15:24:02 GMT",
+        "etag": "\"5ec00592-72a\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "180917",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "124",
+        "x-timer": "S1589823659.262988,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "1834"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.7",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "application/javascript",
+        "server": "nginx",
+        "last-modified": "Mon, 25 Feb 2019 18:34:07 GMT",
+        "etag": "\"5c74351f-84f3\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "13550076",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "29",
+        "x-timer": "S1589823659.263012,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "34035"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.4",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "text/css",
+        "server": "nginx",
+        "last-modified": "Sat, 09 May 2020 14:44:07 GMT",
+        "etag": "\"5eb6c1b7-3025\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "787989",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "8",
+        "x-timer": "S1589823659.263025,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "12325"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.5",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "text/css",
+        "server": "nginx",
+        "last-modified": "Mon, 18 May 2020 08:47:57 GMT",
+        "etag": "\"5ec24bbd-59db\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "31859",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "7",
+        "x-timer": "S1589823659.263027,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "23003"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.4",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.821499,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/static-d8d904c31b0125a1627a2f0433c9ae99c997e2baad8855a6b44dbdf82f72e901.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "787989",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "8",
+          "content-length": "12325",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Sat, 09 May 2020 14:44:07 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5eb6c1b7-3025\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "text/css",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.263025,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 121,
+        "timing": {
+          "requestTime": 6481009.803886,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 5.458,
+          "sendEnd": 6.138,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 16.458
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.3",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "text/css",
+        "server": "nginx",
+        "cache-control": "max-age=315360000, public, immutable",
+        "content-encoding": "gzip",
+        "etag": "\"5c742f3c-3e6\"",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "last-modified": "Mon, 25 Feb 2019 18:09:00 GMT",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "37963911",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "31",
+        "x-timer": "S1589823659.263054,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "998"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.5",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.821957,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/application-cd1c21d3c22fe11f97d1d60e5be7fe053a9e52856fe311a297fcdcfeca256f82.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "31859",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "7",
+          "content-length": "23003",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Mon, 18 May 2020 08:47:57 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5ec24bbd-59db\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "text/css",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.263027,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 168,
+        "timing": {
+          "requestTime": 6481009.804187,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 5.09,
+          "sendEnd": 5.834,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 16.938
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.2",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "text/css",
+        "server": "nginx",
+        "last-modified": "Mon, 25 Feb 2019 18:09:00 GMT",
+        "etag": "\"5c742f3c-b6b\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "2888261",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "119",
+        "x-timer": "S1589823659.263056,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "2923"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.3",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.822558,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "37963911",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "31",
+          "content-length": "998",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Mon, 25 Feb 2019 18:09:00 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5c742f3c-3e6\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "text/css",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.263054,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 233,
+        "timing": {
+          "requestTime": 6481009.803657,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 5.556,
+          "sendEnd": 6.362,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 18.085
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.2",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.823044,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "2888261",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "119",
+          "content-length": "2923",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Mon, 25 Feb 2019 18:09:00 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5c742f3c-b6b\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "text/css",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.263056,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 118,
+        "timing": {
+          "requestTime": 6481009.80321,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 5.928,
+          "sendEnd": 6.805,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 19.117
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.3",
+      "timestamp": 6481009.82388,
+      "dataLength": 3321,
+      "encodedDataLength": 1007
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.3",
+      "timestamp": 6481009.823358,
+      "encodedDataLength": 1240,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.2",
+      "timestamp": 6481009.824373,
+      "dataLength": 14745,
+      "encodedDataLength": 2932
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.2",
+      "timestamp": 6481009.823076,
+      "encodedDataLength": 3050,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.5",
+      "timestamp": 6481009.82624,
+      "dataLength": 65536,
+      "encodedDataLength": 21229
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.5",
+      "timestamp": 6481009.826377,
+      "dataLength": 65536,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.5",
+      "timestamp": 6481009.826573,
+      "dataLength": 65536,
+      "encodedDataLength": 1792
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.12",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/govuk-template-print-1076519521c2fffbbf75ab3b0d3b32ee2d96ac7e9778f1cdfac1771eefd1a1c0.css",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "style",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.15",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/static-print-071035f1d28e1055dc5ca8831ba7f52068c25200bdd3de4a4238c98c710efa45.css",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "style",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.8",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "application/javascript",
+        "server": "nginx",
+        "last-modified": "Fri, 15 May 2020 16:47:26 GMT",
+        "etag": "\"5ebec79e-4b0a\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "262249",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "8",
+        "x-timer": "S1589823659.263580,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "19210"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.9",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "application/javascript",
+        "server": "nginx",
+        "last-modified": "Fri, 27 Mar 2020 17:46:20 GMT",
+        "etag": "\"5e7e3bec-124c\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "4492390",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "103",
+        "x-timer": "S1589823659.263582,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "4684"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.10",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "application/javascript",
+        "server": "nginx",
+        "last-modified": "Mon, 18 May 2020 08:47:57 GMT",
+        "etag": "\"5ec24bbd-5ec6\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "31859",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "1",
+        "x-timer": "S1589823659.263613,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "24262"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.5",
+      "timestamp": 6481009.826763,
+      "dataLength": 3407,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.5",
+      "timestamp": 6481009.82657,
+      "encodedDataLength": 23189,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.4",
+      "timestamp": 6481009.837145,
+      "dataLength": 65536,
+      "encodedDataLength": 12334
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.7",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.837551,
+      "type": "Script",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-c731c20e2995c576b0509d3bd776f7ab64a66b95363a3b5fae9864299ee594ed.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "13550076",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "29",
+          "content-length": "34035",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Mon, 25 Feb 2019 18:34:07 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5c74351f-84f3\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "application/javascript",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.263012,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 116,
+        "timing": {
+          "requestTime": 6481009.804636,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 4.762,
+          "sendEnd": 5.393,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 15.092
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.7",
+      "timestamp": 6481009.83767,
+      "dataLength": 97830,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.12",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "text/css",
+        "server": "nginx",
+        "last-modified": "Mon, 25 Feb 2019 18:09:02 GMT",
+        "etag": "\"5c742f3e-207\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "16540837",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "50",
+        "x-timer": "S1589823659.281839,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "519"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.6",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.838303,
+      "type": "Script",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/global-bar-init-afaa0f767004ce61fc4d1453ba39e4171654fc78993d0d81a2d47598f014a52d.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "180917",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "124",
+          "content-length": "1834",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Sat, 16 May 2020 15:24:02 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5ec00592-72a\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "application/javascript",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.262988,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 258,
+        "timing": {
+          "requestTime": 6481009.804398,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 5.065,
+          "sendEnd": 5.633,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 14.542
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.6",
+      "timestamp": 6481009.838395,
+      "dataLength": 5371,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.17",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/frontend/print-9aaa77ffcc87b7252b176d4cf6eef2ae2e264f9dbf430a45c650c1b43c87727a.css",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "style",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.10",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.838851,
+      "type": "Script",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/application-656ba4c45eb2a57d6926056affb6e7304c04415d03636b6595ede824789c6ae9.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "31859",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "1",
+          "content-length": "24262",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Mon, 18 May 2020 08:47:57 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5ec24bbd-5ec6\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "application/javascript",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.263613,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 233,
+        "timing": {
+          "requestTime": 6481009.805252,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 4.265,
+          "sendEnd": 4.783,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 30.151
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.10",
+      "timestamp": 6481009.838954,
+      "dataLength": 147712,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.9",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.839705,
+      "type": "Script",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/surveys-5bda3f4eefbce1d584961c032bcde7c72417fdfb41d514fd849d24f0641e6850.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "4492390",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "103",
+          "content-length": "4684",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Fri, 27 Mar 2020 17:46:20 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5e7e3bec-124c\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "application/javascript",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.263582,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 169,
+        "timing": {
+          "requestTime": 6481009.805034,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 4.552,
+          "sendEnd": 5.003,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 29.831
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.9",
+      "timestamp": 6481009.839798,
+      "dataLength": 14506,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.15",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "text/css",
+        "server": "nginx",
+        "last-modified": "Mon, 23 Mar 2020 18:25:38 GMT",
+        "etag": "\"5e78ff22-479\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "426730",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "2",
+        "x-timer": "S1589823659.286034,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "1145"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.4",
+      "timestamp": 6481009.840015,
+      "dataLength": 11312,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.4",
+      "timestamp": 6481009.828053,
+      "encodedDataLength": 12455,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.8",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.844376,
+      "type": "Script",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/application-324fdc83c89f0f95995773009c77052d1d50c97f1ecea80349d4f085caee6419.js",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "262249",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "8",
+          "content-length": "19210",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Fri, 15 May 2020 16:47:26 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5ebec79e-4b0a\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "application/javascript",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.263580,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 131,
+        "timing": {
+          "requestTime": 6481009.804836,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 4.823,
+          "sendEnd": 5.205,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 29.353
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.8",
+      "timestamp": 6481009.844474,
+      "dataLength": 64297,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.6",
+      "timestamp": 6481009.833963,
+      "encodedDataLength": 2101,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.12",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.845262,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/govuk-template-print-1076519521c2fffbbf75ab3b0d3b32ee2d96ac7e9778f1cdfac1771eefd1a1c0.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "16540837",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "50",
+          "content-length": "519",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Mon, 25 Feb 2019 18:09:02 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5c742f3e-207\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "text/css",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.281839,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 147,
+        "timing": {
+          "requestTime": 6481009.828287,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.178,
+          "sendEnd": 0.286,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 9.95
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.12",
+      "timestamp": 6481009.845349,
+      "dataLength": 1070,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.12",
+      "timestamp": 6481009.845718,
+      "dataLength": 0,
+      "encodedDataLength": 528
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.12",
+      "timestamp": 6481009.838806,
+      "encodedDataLength": 675,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.9",
+      "timestamp": 6481009.837075,
+      "encodedDataLength": 4862,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.17",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "text/css",
+        "server": "nginx",
+        "last-modified": "Thu, 30 Apr 2020 09:54:21 GMT",
+        "etag": "\"5eaaa04d-6be\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "459917",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "8",
+        "x-timer": "S1589823659.292027,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "1726"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.15",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.846464,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/static-print-071035f1d28e1055dc5ca8831ba7f52068c25200bdd3de4a4238c98c710efa45.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "426730",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "2",
+          "content-length": "1145",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Mon, 23 Mar 2020 18:25:38 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5e78ff22-479\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "text/css",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.286034,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 113,
+        "timing": {
+          "requestTime": 6481009.832737,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.154,
+          "sendEnd": 0.28,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 8.564
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.15",
+      "timestamp": 6481009.846581,
+      "dataLength": 3906,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.15",
+      "timestamp": 6481009.847073,
+      "dataLength": 0,
+      "encodedDataLength": 1154
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.15",
+      "timestamp": 6481009.841861,
+      "encodedDataLength": 1267,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.7",
+      "timestamp": 6481009.847412,
+      "dataLength": 0,
+      "encodedDataLength": 34062
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.7",
+      "timestamp": 6481009.832559,
+      "encodedDataLength": 34178,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.26",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/frontend/govuk_publishing_components/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://assets.publishing.service.gov.uk/frontend/application-cd1c21d3c22fe11f97d1d60e5be7fe053a9e52856fe311a297fcdcfeca256f82.css",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.27",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/images/open-government-licence_2x-10eb4b76075156cc054e4507e556614703f27ce0dd37e48b1e17645fd3e2a473.png",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://assets.publishing.service.gov.uk/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.28",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/images/govuk-crest-2x-c6548884b516041752fc4156a50f084ca387b1e37e4f4668cd109058d924b197.png",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://assets.publishing.service.gov.uk/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.26",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "image/png",
+        "server": "nginx",
+        "last-modified": "Mon, 17 Feb 2020 18:28:42 GMT",
+        "etag": "\"5e4adb5a-21c\"",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "2198436",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "1",
+        "x-timer": "S1589823659.312182,VS0,VE1",
+        "content-length": "540"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.27",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "image/png",
+        "server": "nginx",
+        "last-modified": "Mon, 25 Feb 2019 18:09:02 GMT",
+        "etag": "\"5c742f3e-1f8\"",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "11612740",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "2",
+        "x-timer": "S1589823659.315597,VS0,VE0",
+        "content-length": "504"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.28",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "image/png",
+        "server": "nginx",
+        "last-modified": "Mon, 25 Feb 2019 18:35:40 GMT",
+        "etag": "\"5c74357c-22b4\"",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "22710358",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "1",
+        "x-timer": "S1589823659.316273,VS0,VE0",
+        "content-length": "8884"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.29",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/frontend/homepage/coronavirus-stay-alert-9d37ae99bbd5ccb0d4cc6b1ac9b0b5953653c6455b47ab3bc830fde7921d0a60.png",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.26",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://assets.publishing.service.gov.uk/frontend/application-cd1c21d3c22fe11f97d1d60e5be7fe053a9e52856fe311a297fcdcfeca256f82.css",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.85742,
+      "wallTime": 1589823659.308656,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 737
+      },
+      "type": "Image",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.27",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/images/open-government-licence_2x-10eb4b76075156cc054e4507e556614703f27ce0dd37e48b1e17645fd3e2a473.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://assets.publishing.service.gov.uk/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.862138,
+      "wallTime": 1589823659.313374,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 737
+      },
+      "type": "Image",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.28",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/images/govuk-crest-2x-c6548884b516041752fc4156a50f084ca387b1e37e4f4668cd109058d924b197.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://assets.publishing.service.gov.uk/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.862543,
+      "wallTime": 1589823659.313779,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 737
+      },
+      "type": "Image",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.18",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/fonts/v1-f38ad40456-light-b98fe790388f58c950f2bed1ca8ad02fa168d6effa7aae7cb7fee81e51183f46.woff2",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://assets.publishing.service.gov.uk/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css",
+          "Origin": "https://www.gov.uk",
+          "Sec-Fetch-Dest": "font",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.862925,
+      "wallTime": 1589823659.314161,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 737
+      },
+      "type": "Font",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.20",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/fonts/v1-a2452cb66f-bold-be83c947da6c602697be56d5f04bab2074ad9e8e7fe39807f814654fd691d328.woff2",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://assets.publishing.service.gov.uk/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css",
+          "Origin": "https://www.gov.uk",
+          "Sec-Fetch-Dest": "font",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.863283,
+      "wallTime": 1589823659.31452,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 737
+      },
+      "type": "Font",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "9997.26",
+      "newPriority": "High",
+      "timestamp": 6481009.920105
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.29",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/homepage/coronavirus-stay-alert-9d37ae99bbd5ccb0d4cc6b1ac9b0b5953653c6455b47ab3bc830fde7921d0a60.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.923481,
+      "wallTime": 1589823659.374717,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 737
+      },
+      "type": "Image",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.30",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/homepage/transition-period-b9b1a7fd99d2eab3864fc4cce4ddef09707e3ee8847c3f05681f5a315f885a0e.png",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.923767,
+      "wallTime": 1589823659.375003,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 737
+      },
+      "type": "Image",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.30",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/frontend/homepage/transition-period-b9b1a7fd99d2eab3864fc4cce4ddef09707e3ee8847c3f05681f5a315f885a0e.png",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.31",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/homepage/budget-2020--600w-c3a6fa156abb6c4d53d6b82a75724e98ba7be3ac3861b8f67474e91d7318e0b5.jpg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://www.gov.uk/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.923987,
+      "wallTime": 1589823659.375223,
+      "initiator": {
+        "type": "parser",
+        "url": "https://www.gov.uk/",
+        "lineNumber": 737
+      },
+      "type": "Image",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.10",
+      "timestamp": 6481009.924633,
+      "dataLength": 0,
+      "encodedDataLength": 24280
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.10",
+      "timestamp": 6481009.839167,
+      "encodedDataLength": 24513,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.31",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/frontend/homepage/budget-2020--600w-c3a6fa156abb6c4d53d6b82a75724e98ba7be3ac3861b8f67474e91d7318e0b5.jpg",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://www.gov.uk/",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.8",
+      "timestamp": 6481009.838016,
+      "encodedDataLength": 19359,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.17",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481009.925272,
+      "type": "Stylesheet",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/print-9aaa77ffcc87b7252b176d4cf6eef2ae2e264f9dbf430a45c650c1b43c87727a.css",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "459917",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "8",
+          "content-length": "1726",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Thu, 30 Apr 2020 09:54:21 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5eaaa04d-6be\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "text/css",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.292027,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 167,
+        "timing": {
+          "requestTime": 6481009.835897,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 3.163,
+          "sendEnd": 3.589,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 10.998
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.17",
+      "timestamp": 6481009.925403,
+      "dataLength": 6757,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.17",
+      "timestamp": 6481009.926017,
+      "dataLength": 0,
+      "encodedDataLength": 1735
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.17",
+      "timestamp": 6481009.847658,
+      "encodedDataLength": 1902,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.29",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "image/png",
+        "server": "nginx",
+        "last-modified": "Sun, 10 May 2020 18:20:10 GMT",
+        "etag": "\"5eb845da-2597\"",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "688231",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "1",
+        "x-timer": "S1589823659.377662,VS0,VE0",
+        "content-length": "9623"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.30",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "image/png",
+        "server": "nginx",
+        "last-modified": "Wed, 29 Jan 2020 12:13:48 GMT",
+        "etag": "\"5e3176fc-e2c\"",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "9523211",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "1",
+        "x-timer": "S1589823659.377656,VS0,VE0",
+        "content-length": "3628"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.31",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "image/jpeg",
+        "server": "nginx",
+        "last-modified": "Thu, 30 Apr 2020 09:52:00 GMT",
+        "etag": "\"5eaa9fc0-5418\"",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "1582156",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "1",
+        "x-timer": "S1589823659.377640,VS0,VE1",
+        "content-length": "21528"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.37",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/covid-arrow-cdbee6570e0bd3873f796467021cb35dd92a7853c04aaa2ad3cf4f7f6088cd6c.svg",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "sec-fetch-dest": "image",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "no-cors",
+        "referer": "https://assets.publishing.service.gov.uk/static/static-d8d904c31b0125a1627a2f0433c9ae99c997e2baad8855a6b44dbdf82f72e901.css",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.37",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "image/svg+xml",
+        "server": "nginx",
+        "last-modified": "Sat, 09 May 2020 14:44:07 GMT",
+        "etag": "\"5eb6c1b7-13f\"",
+        "content-encoding": "gzip",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "788084",
+        "x-served-by": "cache-lga21954-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "53",
+        "x-timer": "S1589823659.425489,VS0,VE0",
+        "vary": "Accept-Encoding",
+        "content-length": "319"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "9997.37",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "documentURL": "https://www.gov.uk/",
+      "request": {
+        "url": "https://assets.publishing.service.gov.uk/static/covid-arrow-cdbee6570e0bd3873f796467021cb35dd92a7853c04aaa2ad3cf4f7f6088cd6c.svg",
+        "method": "GET",
+        "headers": {
+          "Referer": "https://assets.publishing.service.gov.uk/static/static-d8d904c31b0125a1627a2f0433c9ae99c997e2baad8855a6b44dbdf82f72e901.css",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Sec-Fetch-Dest": "image"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "no-referrer-when-downgrade"
+      },
+      "timestamp": 6481009.971886,
+      "wallTime": 1589823659.423122,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "",
+              "scriptId": "10",
+              "url": "https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-c731c20e2995c576b0509d3bd776f7ab64a66b95363a3b5fae9864299ee594ed.js",
+              "lineNumber": 1,
+              "columnNumber": 12163
+            },
+            {
+              "functionName": "u",
+              "scriptId": "10",
+              "url": "https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-c731c20e2995c576b0509d3bd776f7ab64a66b95363a3b5fae9864299ee594ed.js",
+              "lineNumber": 1,
+              "columnNumber": 8476
+            },
+            {
+              "functionName": "fireWith",
+              "scriptId": "10",
+              "url": "https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-c731c20e2995c576b0509d3bd776f7ab64a66b95363a3b5fae9864299ee594ed.js",
+              "lineNumber": 1,
+              "columnNumber": 9240
+            },
+            {
+              "functionName": "ready",
+              "scriptId": "10",
+              "url": "https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-c731c20e2995c576b0509d3bd776f7ab64a66b95363a3b5fae9864299ee594ed.js",
+              "lineNumber": 1,
+              "columnNumber": 11050
+            },
+            {
+              "functionName": "o",
+              "scriptId": "10",
+              "url": "https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-c731c20e2995c576b0509d3bd776f7ab64a66b95363a3b5fae9864299ee594ed.js",
+              "lineNumber": 0,
+              "columnNumber": 1129
+            }
+          ]
+        }
+      },
+      "type": "Image",
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "9997.37",
+      "newPriority": "High",
+      "timestamp": 6481009.973114
+    }
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 6481010.02593
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "name": "DOMContentLoaded",
+      "timestamp": 6481010.02593
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.26",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481010.027374,
+      "type": "Image",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "via": "1.1 varnish",
+          "age": "2198436",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "1",
+          "content-length": "540",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Mon, 17 Feb 2020 18:28:42 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5e4adb5a-21c\"",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.312182,VS0,VE1",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 237,
+        "timing": {
+          "requestTime": 6481009.857822,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.256,
+          "sendEnd": 0.407,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 10.58
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.26",
+      "timestamp": 6481010.027488,
+      "dataLength": 540,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.26",
+      "timestamp": 6481009.869114,
+      "encodedDataLength": 786,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.27",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481010.028247,
+      "type": "Image",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/images/open-government-licence_2x-10eb4b76075156cc054e4507e556614703f27ce0dd37e48b1e17645fd3e2a473.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "via": "1.1 varnish",
+          "age": "11612740",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "2",
+          "content-length": "504",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Mon, 25 Feb 2019 18:09:02 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5c742f3e-1f8\"",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.315597,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 130,
+        "timing": {
+          "requestTime": 6481009.862447,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.193,
+          "sendEnd": 0.563,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 8.028
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.27",
+      "timestamp": 6481010.028341,
+      "dataLength": 504,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.27",
+      "timestamp": 6481009.871199,
+      "encodedDataLength": 643,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.28",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481010.029004,
+      "type": "Image",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/images/govuk-crest-2x-c6548884b516041752fc4156a50f084ca387b1e37e4f4668cd109058d924b197.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "via": "1.1 varnish",
+          "age": "22710358",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "1",
+          "content-length": "8884",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Mon, 25 Feb 2019 18:35:40 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5c74357c-22b4\"",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.316273,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 109,
+        "timing": {
+          "requestTime": 6481009.862792,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.25,
+          "sendEnd": 0.689,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 9.994
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.28",
+      "timestamp": 6481010.02909,
+      "dataLength": 8884,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.28",
+      "timestamp": 6481009.873575,
+      "encodedDataLength": 9002,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "name": "firstPaint",
+      "timestamp": 6481009.932967
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "name": "firstContentfulPaint",
+      "timestamp": 6481009.932967
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "name": "firstImagePaint",
+      "timestamp": 6481009.932967
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.29",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481010.03438,
+      "type": "Image",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/homepage/coronavirus-stay-alert-9d37ae99bbd5ccb0d4cc6b1ac9b0b5953653c6455b47ab3bc830fde7921d0a60.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "via": "1.1 varnish",
+          "age": "688231",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "1",
+          "content-length": "9623",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Sun, 10 May 2020 18:20:10 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5eb845da-2597\"",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.377662,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 99,
+        "timing": {
+          "requestTime": 6481009.923882,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.378,
+          "sendEnd": 0.88,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 9.239
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.29",
+      "timestamp": 6481010.03449,
+      "dataLength": 9623,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.29",
+      "timestamp": 6481009.934421,
+      "encodedDataLength": 9731,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.30",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481010.035251,
+      "type": "Image",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/homepage/transition-period-b9b1a7fd99d2eab3864fc4cce4ddef09707e3ee8847c3f05681f5a315f885a0e.png",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "via": "1.1 varnish",
+          "age": "9523211",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "1",
+          "content-length": "3628",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Wed, 29 Jan 2020 12:13:48 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5e3176fc-e2c\"",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "image/png",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.377656,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "image/png",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 151,
+        "timing": {
+          "requestTime": 6481009.924152,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.564,
+          "sendEnd": 0.757,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 9.546
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.30",
+      "timestamp": 6481010.035358,
+      "dataLength": 3628,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.30",
+      "timestamp": 6481009.934694,
+      "encodedDataLength": 3788,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.31",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481010.03601,
+      "type": "Image",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/frontend/homepage/budget-2020--600w-c3a6fa156abb6c4d53d6b82a75724e98ba7be3ac3861b8f67474e91d7318e0b5.jpg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "via": "1.1 varnish",
+          "age": "1582156",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "1",
+          "content-length": "21528",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Thu, 30 Apr 2020 09:52:00 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5eaa9fc0-5418\"",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "image/jpeg",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.377640,VS0,VE1",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "image/jpeg",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 250,
+        "timing": {
+          "requestTime": 6481009.924405,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.382,
+          "sendEnd": 0.508,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 10.489
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.31",
+      "timestamp": 6481010.036091,
+      "dataLength": 21528,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.31",
+      "timestamp": 6481009.935606,
+      "encodedDataLength": 21796,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.37",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481010.036932,
+      "type": "Image",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/covid-arrow-cdbee6570e0bd3873f796467021cb35dd92a7853c04aaa2ad3cf4f7f6088cd6c.svg",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "content-encoding": "gzip",
+          "age": "788084",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "53",
+          "content-length": "319",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-lga21954-LGA",
+          "last-modified": "Sat, 09 May 2020 14:44:07 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5eb6c1b7-13f\"",
+          "vary": "Accept-Encoding",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "image/svg+xml",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.425489,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "image/svg+xml",
+        "connectionReused": true,
+        "connectionId": 12,
+        "remoteIPAddress": "151.101.192.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 163,
+        "timing": {
+          "requestTime": 6481009.972303,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 0.251,
+          "sendEnd": 0.416,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 7.828
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.37",
+      "timestamp": 6481010.037018,
+      "dataLength": 503,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.37",
+      "timestamp": 6481009.980859,
+      "encodedDataLength": 491,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.18",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/fonts/v1-f38ad40456-light-b98fe790388f58c950f2bed1ca8ad02fa168d6effa7aae7cb7fee81e51183f46.woff2",
+        "origin": "https://www.gov.uk",
+        "sec-fetch-dest": "font",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "cors",
+        "referer": "https://assets.publishing.service.gov.uk/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "9997.20",
+      "blockedCookies": [],
+      "headers": {
+        ":method": "GET",
+        ":authority": "assets.publishing.service.gov.uk",
+        ":scheme": "https",
+        ":path": "/static/fonts/v1-a2452cb66f-bold-be83c947da6c602697be56d5f04bab2074ad9e8e7fe39807f814654fd691d328.woff2",
+        "origin": "https://www.gov.uk",
+        "sec-fetch-dest": "font",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "accept": "*/*",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "cors",
+        "referer": "https://assets.publishing.service.gov.uk/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.18",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "font/woff2",
+        "server": "nginx",
+        "last-modified": "Mon, 25 Feb 2019 18:09:02 GMT",
+        "etag": "\"5c742f3e-1093c\"",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "13280600",
+        "x-served-by": "cache-lga21957-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "88",
+        "x-timer": "S1589823659.498478,VS0,VE0",
+        "content-length": "67900"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "9997.20",
+      "blockedCookies": [],
+      "headers": {
+        "status": "200",
+        "content-type": "font/woff2",
+        "server": "nginx",
+        "last-modified": "Mon, 17 Feb 2020 18:42:47 GMT",
+        "etag": "\"5e4adea7-d884\"",
+        "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+        "cache-control": "max-age=315360000, public, immutable",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, OPTIONS",
+        "access-control-allow-headers": "origin, authorization",
+        "fastly-backend-name": "awsorigin",
+        "accept-ranges": "bytes",
+        "date": "Mon, 18 May 2020 17:40:59 GMT",
+        "via": "1.1 varnish",
+        "age": "2198793",
+        "x-served-by": "cache-lga21957-LGA",
+        "x-cache": "HIT",
+        "x-cache-hits": "49",
+        "x-timer": "S1589823659.498534,VS0,VE0",
+        "content-length": "55428"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.18",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481010.067177,
+      "type": "Font",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/fonts/v1-f38ad40456-light-b98fe790388f58c950f2bed1ca8ad02fa168d6effa7aae7cb7fee81e51183f46.woff2",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "via": "1.1 varnish",
+          "age": "13280600",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "88",
+          "content-length": "67900",
+          "x-served-by": "cache-lga21957-LGA",
+          "last-modified": "Mon, 25 Feb 2019 18:09:02 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5c742f3e-1093c\"",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "font/woff2",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.498478,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "font/woff2",
+        "connectionReused": false,
+        "connectionId": 107,
+        "remoteIPAddress": "151.101.0.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 352,
+        "timing": {
+          "requestTime": 6481010.02704,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.131,
+          "dnsEnd": 0.142,
+          "connectStart": 0.142,
+          "connectEnd": 18.011,
+          "sslStart": 7.011,
+          "sslEnd": 18.005,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 18.514,
+          "sendEnd": 18.739,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 26.676
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.18",
+      "timestamp": 6481010.067296,
+      "dataLength": 38100,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "9997.20",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "timestamp": 6481010.067835,
+      "type": "Font",
+      "response": {
+        "url": "https://assets.publishing.service.gov.uk/static/fonts/v1-a2452cb66f-bold-be83c947da6c602697be56d5f04bab2074ad9e8e7fe39807f814654fd691d328.woff2",
+        "status": 200,
+        "statusText": "",
+        "headers": {
+          "date": "Mon, 18 May 2020 17:40:59 GMT",
+          "via": "1.1 varnish",
+          "age": "2198793",
+          "x-cache": "HIT",
+          "status": "200",
+          "x-cache-hits": "49",
+          "content-length": "55428",
+          "x-served-by": "cache-lga21957-LGA",
+          "last-modified": "Mon, 17 Feb 2020 18:42:47 GMT",
+          "server": "nginx",
+          "fastly-backend-name": "awsorigin",
+          "etag": "\"5e4adea7-d884\"",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "content-type": "font/woff2",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public, immutable",
+          "accept-ranges": "bytes",
+          "x-timer": "S1589823659.498534,VS0,VE0",
+          "access-control-allow-headers": "origin, authorization",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "mimeType": "font/woff2",
+        "connectionReused": true,
+        "connectionId": 107,
+        "remoteIPAddress": "151.101.0.144",
+        "remotePort": 443,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 105,
+        "timing": {
+          "requestTime": 6481010.027432,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "sendStart": 18.198,
+          "sendEnd": 18.35,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 26.951
+        },
+        "protocol": "h2",
+        "securityState": "secure",
+        "securityDetails": {
+          "protocol": "TLS 1.3",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "cipher": "CHACHA20_POLY1305",
+          "certificateId": 0,
+          "subjectName": "www.gov.uk",
+          "sanList": [
+            "www.gov.uk",
+            "*.businesslink.gov.uk",
+            "*.direct.gov.uk",
+            "*.preview.alphagov.co.uk",
+            "*.production.alphagov.co.uk",
+            "*.publishing.service.gov.uk",
+            "*.cabinet-office.gov.uk",
+            "assets.digital.cabinet-office.gov.uk",
+            "service.gov.uk",
+            "data.gov.uk",
+            "dfid.gov.uk",
+            "cabinet-office.gov.uk",
+            "www.data.gov.uk",
+            "gov.uk"
+          ],
+          "issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+          "validFrom": 1555010407,
+          "validTo": 1605380464,
+          "signedCertificateTimestampList": [],
+          "certificateTransparencyCompliance": "unknown"
+        }
+      },
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.18",
+      "timestamp": 6481010.068786,
+      "dataLength": 5512,
+      "encodedDataLength": 43639
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.18",
+      "timestamp": 6481010.070968,
+      "dataLength": 24288,
+      "encodedDataLength": 24306
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.18",
+      "timestamp": 6481010.070758,
+      "encodedDataLength": 68297,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.20",
+      "timestamp": 6481010.075371,
+      "dataLength": 28658,
+      "encodedDataLength": 28676
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "9997.20",
+      "timestamp": 6481010.080874,
+      "dataLength": 26770,
+      "encodedDataLength": 26788
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "9997.20",
+      "timestamp": 6481010.080754,
+      "encodedDataLength": 55569,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 6481010.085219
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "name": "load",
+      "timestamp": 6481010.085219
+    }
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 6481010.080173
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "name": "networkAlmostIdle",
+      "timestamp": 6481010.038857
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 6481010.080173
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "91980EF13603BE0EE635A2A4711A1B34",
+      "loaderId": "69E6F599D386510C6C2AF0C38D78551B",
+      "name": "networkIdle",
+      "timestamp": 6481010.083829
+    }
+  }
+]
